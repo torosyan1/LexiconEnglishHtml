@@ -101,11 +101,84 @@
   .word-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: linear-gradient(90deg, var(--accent), #e08050); opacity: 0; transition: opacity var(--transition); }
   .word-card:hover { border-color: transparent; box-shadow: var(--shadow-md); transform: translateY(-2px); }
   .word-card:hover::before { opacity: 1; }
-  .word-card.learned { background: var(--learned-light); border-color: #b5e0cf; }
-  .word-card.learned::before { background: linear-gradient(90deg, var(--learned), #42b88a); opacity: 1; }
-  .word-card.learned:hover { border-color: transparent; }
+  /* ── Learned card — rich premium look ── */
+  .word-card.learned {
+    background: linear-gradient(145deg, #d9f5e9 0%, #edfaf3 40%, #d0f0e4 100%);
+    border-color: transparent;
+    box-shadow:
+      0 0 0 1.5px #86d9b4,
+      0 4px 18px rgba(45,122,95,0.14),
+      inset 0 1px 0 rgba(255,255,255,0.85);
+  }
+  body.dark .word-card.learned {
+    background: linear-gradient(145deg, #0d2a1c 0%, #112e20 40%, #0a2418 100%);
+    box-shadow:
+      0 0 0 1.5px #2d6a45,
+      0 4px 18px rgba(45,122,95,0.25),
+      inset 0 1px 0 rgba(255,255,255,0.05);
+  }
+  .word-card.learned::before {
+    display: none;
+  }
+  /* Sparkle dots inside learned card */
+  .word-card.learned::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(circle at 85% 20%, rgba(66,184,138,0.18) 0%, transparent 45%),
+      radial-gradient(circle at 15% 80%, rgba(45,122,95,0.12) 0%, transparent 40%);
+    border-radius: inherit;
+    pointer-events: none;
+  }
+  .word-card.learned:hover {
+    border-color: transparent;
+    box-shadow:
+      0 0 0 2px #42b88a,
+      0 12px 36px rgba(45,122,95,0.22),
+      inset 0 1px 0 rgba(255,255,255,0.9);
+    transform: translateY(-5px) rotateX(1deg);
+  }
   .card-word { font-family: 'Fraunces', serif; font-size: 22px; font-weight: 600; color: var(--text); margin-bottom: 6px; letter-spacing: -0.3px; }
-  .word-card.learned .card-word { color: var(--learned-dark); }
+  .word-card.learned .card-word {
+    color: #1a6647;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.6);
+  }
+  body.dark .word-card.learned .card-word {
+    color: #5abf96;
+    text-shadow: 0 1px 4px rgba(66,184,138,0.3);
+  }
+  /* Learned badge in top-right corner */
+  .word-card.learned .card-learned-badge {
+    display: flex;
+  }
+  .card-learned-badge {
+    display: none;
+    position: absolute;
+    top: 10px; right: 10px;
+    background: linear-gradient(135deg, #2d7a5f, #42b88a);
+    color: white;
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    padding: 3px 7px;
+    border-radius: 99px;
+    box-shadow: 0 2px 6px rgba(45,122,95,0.35);
+    animation: badgePop 0.4s cubic-bezier(0.34,1.8,0.64,1) both;
+  }
+  @keyframes badgePop {
+    from { transform: scale(0) rotate(-15deg); opacity: 0; }
+    to   { transform: scale(1) rotate(0deg); opacity: 1; }
+  }
+  .word-card.learned .card-meanings {
+    color: #3a6e5a;
+  }
+  body.dark .word-card.learned .card-meanings {
+    color: #7ac9a8;
+  }
+  /* Give learned card a bit more top space for the badge */
+  .word-card.learned { padding-top: 22px; }
   .card-meanings { font-size: 12.5px; color: var(--text-muted); line-height: 1.5; margin-bottom: 14px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
   .card-footer { display: flex; align-items: center; justify-content: space-between; gap: 6px; }
   .card-forms { font-size: 11px; color: var(--text-light); font-style: italic; flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
@@ -804,6 +877,363 @@
   @media (max-width: 860px) {
     .app-split { flex-direction: column; }
     .found-panel { width: 100%; position: static; max-height: 220px; }
+  }
+
+  /* ═══════════════════════════════════════════
+     ENHANCED ANIMATIONS & UI/UX UPGRADES
+  ═══════════════════════════════════════════ */
+
+  /* ── Ambient floating orbs behind main content ── */
+  .main { position: relative; }
+  .main::before, .main::after {
+    content: '';
+    position: fixed;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 0;
+    filter: blur(80px);
+    opacity: 0.045;
+  }
+  .main::before {
+    width: 520px; height: 520px;
+    background: radial-gradient(circle, var(--accent) 0%, transparent 70%);
+    top: 10vh; right: -120px;
+    animation: orbDrift1 18s ease-in-out infinite alternate;
+  }
+  .main::after {
+    width: 420px; height: 420px;
+    background: radial-gradient(circle, var(--learned) 0%, transparent 70%);
+    bottom: 10vh; left: -100px;
+    animation: orbDrift2 22s ease-in-out infinite alternate;
+  }
+  @keyframes orbDrift1 {
+    from { transform: translate(0, 0) scale(1); }
+    to   { transform: translate(-60px, 80px) scale(1.15); }
+  }
+  @keyframes orbDrift2 {
+    from { transform: translate(0, 0) scale(1); }
+    to   { transform: translate(80px, -60px) scale(1.2); }
+  }
+  .word-grid, .results-info, .pagination, .wotd-banner {
+    position: relative; z-index: 1;
+  }
+
+  /* ── Staggered card entrance ── */
+  .word-card {
+    animation: cardEntrance 0.38s cubic-bezier(0.34,1.3,0.64,1) both;
+    transform-style: preserve-3d;
+  }
+  @keyframes cardEntrance {
+    from { opacity: 0; transform: translateY(18px) scale(0.94); }
+    to   { opacity: 1; transform: translateY(0) scale(1); }
+  }
+  .word-card:nth-child(1)  { animation-delay: 0.02s; }
+  .word-card:nth-child(2)  { animation-delay: 0.05s; }
+  .word-card:nth-child(3)  { animation-delay: 0.08s; }
+  .word-card:nth-child(4)  { animation-delay: 0.11s; }
+  .word-card:nth-child(5)  { animation-delay: 0.14s; }
+  .word-card:nth-child(6)  { animation-delay: 0.17s; }
+  .word-card:nth-child(7)  { animation-delay: 0.20s; }
+  .word-card:nth-child(8)  { animation-delay: 0.23s; }
+  .word-card:nth-child(9)  { animation-delay: 0.26s; }
+  .word-card:nth-child(10) { animation-delay: 0.29s; }
+  .word-card:nth-child(n+11) { animation-delay: 0.32s; }
+
+  /* ── 3D tilt on card hover ── */
+  .word-card {
+    transition: all var(--transition), box-shadow 0.25s ease;
+    will-change: transform;
+  }
+  .word-card:hover {
+    transform: translateY(-4px) rotateX(1.5deg) rotateY(-1deg);
+    box-shadow: 0 12px 40px rgba(0,0,0,0.13), 0 4px 12px rgba(0,0,0,0.08);
+  }
+
+  /* ── Shimmer sweep on card hover ── */
+  .word-card::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(105deg, transparent 40%, rgba(255,255,255,0.08) 50%, transparent 60%);
+    background-size: 200% 100%;
+    background-position: 200% 0;
+    border-radius: inherit;
+    pointer-events: none;
+    transition: background-position 0.55s ease;
+  }
+  .word-card:hover::after {
+    background-position: -50% 0;
+  }
+  body.dark .word-card::after {
+    background: linear-gradient(105deg, transparent 40%, rgba(255,255,255,0.04) 50%, transparent 60%);
+    background-size: 200% 100%;
+    background-position: 200% 0;
+  }
+  body.dark .word-card:hover::after {
+    background-position: -50% 0;
+  }
+
+  /* ── Learned card entrance only ── */
+  .word-card.learned {
+    animation: cardEntrance 0.38s cubic-bezier(0.34,1.3,0.64,1) both;
+  }
+
+  /* ── Ripple effect ── */
+  .ripple-host { position: relative; overflow: hidden; }
+  .ripple {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.28);
+    transform: scale(0);
+    animation: rippleAnim 0.55s linear;
+    pointer-events: none;
+  }
+  @keyframes rippleAnim {
+    to { transform: scale(4); opacity: 0; }
+  }
+
+  /* ── Learn toggle spring pop ── */
+  .learn-toggle, .star-toggle {
+    transition: all 0.18s cubic-bezier(0.34,1.6,0.64,1);
+  }
+  .learn-toggle:active { transform: scale(0.8); }
+  .word-card.learned .learn-toggle {
+    animation: learnPop 0.4s cubic-bezier(0.34,1.8,0.64,1);
+  }
+  @keyframes learnPop {
+    from { transform: scale(0.5) rotate(-20deg); opacity: 0.4; }
+    to   { transform: scale(1) rotate(0deg); opacity: 1; }
+  }
+  .star-toggle.active {
+    animation: starPop 0.4s cubic-bezier(0.34,2,0.64,1);
+  }
+  @keyframes starPop {
+    0%   { transform: scale(0.5) rotate(-30deg); }
+    60%  { transform: scale(1.25) rotate(10deg); }
+    100% { transform: scale(1) rotate(0deg); }
+  }
+
+  /* ── Spark particles on learn-toggle ── */
+  .spark {
+    position: fixed;
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 9999;
+    animation: sparkFly 0.7s cubic-bezier(0.2,0.8,0.4,1) forwards;
+  }
+  @keyframes sparkFly {
+    0%   { transform: translate(0,0) scale(1); opacity: 1; }
+    100% { transform: translate(var(--sx),var(--sy)) scale(0); opacity: 0; }
+  }
+
+  /* ── Icon button morphing hover ── */
+  .icon-btn {
+    transition: all 0.2s cubic-bezier(0.34,1.4,0.64,1);
+  }
+  .icon-btn:hover {
+    transform: translateY(-2px) scale(1.08);
+  }
+  .icon-btn:active {
+    transform: scale(0.88);
+    transition-duration: 0.08s;
+  }
+
+  /* ── Progress fill animated milestone flash ── */
+  .progress-fill.milestone {
+    animation: milestoneFlash 0.7s ease;
+  }
+  @keyframes milestoneFlash {
+    0%   { filter: brightness(1); }
+    30%  { filter: brightness(1.6) saturate(1.4); }
+    100% { filter: brightness(1); }
+  }
+
+  /* ── Search input glow ring on focus ── */
+  .search-input {
+    transition: border-color var(--transition), box-shadow 0.3s ease, background var(--transition), transform 0.2s ease;
+  }
+  .search-input:focus {
+    transform: scaleX(1.01);
+    box-shadow: 0 0 0 3px rgba(200,96,42,0.15), 0 2px 12px rgba(200,96,42,0.1);
+  }
+
+  /* ── Sort/filter select pop ── */
+  .sort-select {
+    transition: border-color var(--transition), box-shadow var(--transition), transform 0.15s ease;
+  }
+  .sort-select:focus {
+    transform: scale(1.02);
+  }
+
+  /* ── Word of the Day banner animated gradient ── */
+  .wotd-banner {
+    background: linear-gradient(135deg, var(--accent-light), var(--surface), var(--accent-light));
+    background-size: 200% 100%;
+    animation: wotdGrad 6s ease infinite;
+  }
+  @keyframes wotdGrad {
+    0%,100% { background-position: 0% 50%; }
+    50%      { background-position: 100% 50%; }
+  }
+  .wotd-icon {
+    animation: wotdBounce 2.5s cubic-bezier(0.36,0.07,0.19,0.97) infinite;
+  }
+  @keyframes wotdBounce {
+    0%,100% { transform: translateY(0) rotate(0deg); }
+    20% { transform: translateY(-4px) rotate(-8deg); }
+    40% { transform: translateY(0) rotate(4deg); }
+    60% { transform: translateY(-2px) rotate(-4deg); }
+    80% { transform: translateY(0) rotate(0deg); }
+  }
+
+  /* ── Modal entrance spring ── */
+  .modal-overlay.open .modal {
+    animation: modalSpring 0.42s cubic-bezier(0.34,1.35,0.64,1) forwards;
+  }
+  @keyframes modalSpring {
+    from { transform: translateY(28px) scale(0.93); opacity: 0.3; }
+    to   { transform: translateY(0) scale(1); opacity: 1; }
+  }
+
+  /* ── Guess modal spring ── */
+  .guess-overlay.open .guess-modal {
+    animation: modalSpring 0.42s cubic-bezier(0.34,1.35,0.64,1) forwards;
+  }
+
+  /* ── Toast upgraded entrance with bounce ── */
+  @keyframes toastIn {
+    0%   { opacity: 0; transform: translateX(48px) scale(0.88); }
+    60%  { opacity: 1; transform: translateX(-6px) scale(1.02); }
+    100% { opacity: 1; transform: translateX(0) scale(1); }
+  }
+  @keyframes toastOut {
+    from { opacity: 1; transform: translateX(0) scale(1); }
+    to   { opacity: 0; transform: translateX(48px) scale(0.9); }
+  }
+
+  /* ── Letter bar active button jump ── */
+  .letter-btn.active {
+    animation: letterPop 0.28s cubic-bezier(0.34,1.7,0.64,1);
+  }
+  @keyframes letterPop {
+    from { transform: scale(0.75); }
+    to   { transform: scale(1); }
+  }
+
+  /* ── Pos-filter button slide ── */
+  .pos-btn {
+    transition: all 0.22s cubic-bezier(0.34,1.3,0.64,1);
+  }
+  .pos-btn.active {
+    transform: scale(1.05);
+  }
+
+  /* ── Page button hover bounce ── */
+  .page-btn, .nav-btn, .guess-nav-btn {
+    transition: all 0.2s cubic-bezier(0.34,1.4,0.64,1);
+  }
+  .page-btn:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(200,96,42,0.15);
+  }
+
+  /* ── Study/mode buttons bounce ── */
+  .study-mode-btn {
+    transition: all 0.2s cubic-bezier(0.34,1.4,0.64,1);
+  }
+
+  /* ── Logo emblem continuous spin-hover ── */
+  .logo-emblem {
+    transition: transform 0.4s cubic-bezier(0.34,1.5,0.64,1), box-shadow var(--transition);
+  }
+  .logo:hover .logo-emblem {
+    transform: rotate(-8deg) scale(1.12) translateY(-1px);
+  }
+
+  /* ── Stats animated number ── */
+  .stat-value {
+    display: inline-block;
+    transition: transform 0.3s cubic-bezier(0.34,1.6,0.64,1), color 0.3s ease;
+  }
+  .stat-value.bump {
+    animation: statBump 0.35s cubic-bezier(0.34,2,0.64,1);
+  }
+  @keyframes statBump {
+    0%   { transform: scale(1); }
+    50%  { transform: scale(1.35) translateY(-3px); }
+    100% { transform: scale(1); }
+  }
+
+  /* ── Header gradient top-line pulse ── */
+  .header::before {
+    animation: hdrLine 5s ease infinite, hdrLinePulse 3s ease-in-out infinite alternate;
+  }
+  @keyframes hdrLinePulse {
+    from { opacity: 0.85; height: 2.5px; }
+    to   { opacity: 1; height: 3px; }
+  }
+
+  /* ── Scrolled header glow ── */
+  .header.scrolled {
+    box-shadow: 0 4px 32px rgba(0,0,0,0.12), 0 1px 8px rgba(0,0,0,0.06), 0 0 0 0 transparent;
+    transition: box-shadow 0.4s ease, background 0.3s ease;
+  }
+
+  /* ── Splash card particles ── */
+  .splash-bg-dots::before {
+    animation: splashOrb1 12s ease-in-out infinite alternate;
+  }
+  .splash-bg-dots::after {
+    animation: splashOrb2 16s ease-in-out infinite alternate;
+  }
+  @keyframes splashOrb1 {
+    from { transform: translate(0,0) scale(1); opacity: 0.18; }
+    to   { transform: translate(80px, 60px) scale(1.3); opacity: 0.28; }
+  }
+  @keyframes splashOrb2 {
+    from { transform: translate(0,0) scale(1); opacity: 0.12; }
+    to   { transform: translate(-60px,-80px) scale(1.2); opacity: 0.22; }
+  }
+
+  /* ── Splash button shimmer ── */
+  .splash-btn {
+    overflow: hidden;
+    position: relative;
+  }
+  .splash-btn::after {
+    content: '';
+    position: absolute;
+    top: 0; left: -100%; width: 60%; height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.18), transparent);
+    animation: splashBtnShimmer 2.4s ease-in-out infinite;
+  }
+  @keyframes splashBtnShimmer {
+    0%   { left: -100%; }
+    100% { left: 160%; }
+  }
+
+  /* ── Primary buttons shimmer ── */
+  .study-mode-btn.btn-primary {
+    overflow: hidden; position: relative;
+  }
+  .study-mode-btn.btn-primary::after {
+    content: '';
+    position: absolute;
+    top: 0; left: -100%; width: 50%; height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.14), transparent);
+    animation: splashBtnShimmer 2.6s ease-in-out infinite 0.8s;
+  }
+
+  /* ── Confetti canvas (already exists, just ensure display) ── */
+
+  /* ── Reduced motion support ── */
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
   }
 </style>
 </head>
@@ -1512,6 +1942,7 @@ function render() {
 
       const meanings = (w.meanings||[]).slice(0,2).map(m => hl(m)).join(' · ');
       return `<div class="word-card ${learned?'learned':''}" style="animation-delay:${i*0.03}s" onclick="openModal('${esc(w.word)}')">
+        ${learned ? '<div class="card-learned-badge">✓ Learned</div>' : ''}
         <div class="card-word">${hl(w.word)}</div>
         <div class="card-meanings">${meanings}</div>
         <div class="card-footer">
@@ -2722,6 +3153,156 @@ fetch('words.json')
     updateProgress();
     updateStats();
   });
+</script>
+
+<script>
+/* ── Enhanced Animations Runtime ── */
+(function() {
+
+  // ── Ripple on all interactive buttons ──
+  function addRipple(el) {
+    el.classList.add('ripple-host');
+    el.addEventListener('pointerdown', function(e) {
+      const rect = el.getBoundingClientRect();
+      const size = Math.max(rect.width, rect.height) * 1.6;
+      const r = document.createElement('span');
+      r.className = 'ripple';
+      r.style.cssText = `width:${size}px;height:${size}px;left:${e.clientX - rect.left - size/2}px;top:${e.clientY - rect.top - size/2}px`;
+      el.appendChild(r);
+      r.addEventListener('animationend', () => r.remove());
+    });
+  }
+  function initRipples() {
+    document.querySelectorAll('.study-mode-btn, .splash-btn, .page-btn, .guess-check-btn, .modal-learn-btn, .modal-star-btn, .test-setup-start, .notes-pg-save-btn, .test-pg-submit, .test-pg-next-btn').forEach(addRipple);
+  }
+  initRipples();
+  // Re-apply after any dynamic content changes
+  const _origRender = window.render;
+  if (typeof _origRender === 'function') {
+    window.render = function() {
+      _origRender.apply(this, arguments);
+      setTimeout(initRipples, 60);
+    };
+  }
+
+  // ── Spark particles on learn-toggle ──
+  function burstSparks(el, color) {
+    const rect = el.getBoundingClientRect();
+    const cx = rect.left + rect.width / 2;
+    const cy = rect.top + rect.height / 2;
+    const colors = color === 'gold'
+      ? ['#f59e0b','#fbbf24','#fde68a','#f97316']
+      : ['#2d7a5f','#42b88a','#86efac','#3a9e78'];
+    for (let i = 0; i < 10; i++) {
+      const spark = document.createElement('div');
+      spark.className = 'spark';
+      const angle = (Math.PI * 2 * i) / 10 + Math.random() * 0.4;
+      const dist = 36 + Math.random() * 28;
+      spark.style.cssText = `
+        left:${cx - 3}px; top:${cy - 3}px;
+        background:${colors[i % colors.length]};
+        --sx:${Math.cos(angle) * dist}px;
+        --sy:${Math.sin(angle) * dist}px;
+        animation-delay:${Math.random() * 0.08}s;
+        width:${4 + Math.random() * 4}px;
+        height:${4 + Math.random() * 4}px;
+      `;
+      document.body.appendChild(spark);
+      spark.addEventListener('animationend', () => spark.remove());
+    }
+  }
+
+  // Hook learn toggles (both card and modal)
+  document.addEventListener('click', function(e) {
+    const lt = e.target.closest('.learn-toggle');
+    const st = e.target.closest('.star-toggle, .modal-star-btn');
+    const mlb = e.target.closest('.modal-learn-btn');
+    if (lt) {
+      const isNowLearned = lt.closest('.word-card')?.classList.contains('learned');
+      if (isNowLearned) burstSparks(lt, 'green');
+    }
+    if (st && (st.classList.contains('active') || st.classList.contains('is-starred'))) {
+      burstSparks(st, 'gold');
+    }
+    if (mlb && mlb.classList.contains('is-learned')) {
+      burstSparks(mlb, 'green');
+    }
+  });
+
+  // ── Stagger card animation on re-render ──
+  function restaggerCards() {
+    document.querySelectorAll('.word-card').forEach((c, i) => {
+      c.style.animationDelay = `${Math.min(i * 0.032, 0.35)}s`;
+      c.style.animationName = 'none';
+      requestAnimationFrame(() => {
+        requestAnimationFrame(() => { c.style.animationName = ''; });
+      });
+    });
+  }
+
+  // ── Stat value bump animation ──
+  let prevStatVals = {};
+  function animateStatBumps() {
+    document.querySelectorAll('.stat-value').forEach(el => {
+      const val = el.textContent;
+      const key = el.id || el.className + el.textContent.slice(0,3);
+      if (prevStatVals[key] !== undefined && prevStatVals[key] !== val) {
+        el.classList.remove('bump');
+        void el.offsetWidth;
+        el.classList.add('bump');
+        el.addEventListener('animationend', () => el.classList.remove('bump'), { once: true });
+      }
+      prevStatVals[key] = val;
+    });
+  }
+  const statObserver = new MutationObserver(animateStatBumps);
+  document.querySelectorAll('.stats-inner').forEach(el => {
+    statObserver.observe(el, { childList: true, subtree: true, characterData: true });
+  });
+
+  // ── Progress bar milestone flash ──
+  let lastPct = 0;
+  const pctEl = document.getElementById('progress-pct');
+  const fillEl = document.getElementById('progress-fill');
+  if (pctEl && fillEl) {
+    new MutationObserver(() => {
+      const cur = parseFloat(pctEl.textContent) || 0;
+      if (Math.floor(cur / 10) > Math.floor(lastPct / 10) && cur > 0) {
+        fillEl.classList.remove('milestone');
+        void fillEl.offsetWidth;
+        fillEl.classList.add('milestone');
+        fillEl.addEventListener('animationend', () => fillEl.classList.remove('milestone'), { once: true });
+      }
+      lastPct = cur;
+    }).observe(pctEl, { childList: true, characterData: true, subtree: true });
+  }
+
+  // ── 3D tilt on word cards (mouse tracking) ──
+  let tiltTimer;
+  document.addEventListener('mousemove', function(e) {
+    clearTimeout(tiltTimer);
+    tiltTimer = setTimeout(() => {
+      const card = e.target.closest('.word-card');
+      if (!card) return;
+      const rect = card.getBoundingClientRect();
+      const mx = (e.clientX - rect.left) / rect.width - 0.5;
+      const my = (e.clientY - rect.top) / rect.height - 0.5;
+      card.style.transform = `translateY(-4px) rotateX(${-my * 6}deg) rotateY(${mx * 6}deg)`;
+    }, 8);
+  });
+  document.addEventListener('mouseleave', function(e) {
+    const card = e.target.closest?.('.word-card');
+    if (card) card.style.transform = '';
+  }, true);
+
+  // ── Re-stagger after page render ──
+  const wordGrid = document.querySelector('.word-grid');
+  if (wordGrid) {
+    new MutationObserver(() => { restaggerCards(); setTimeout(initRipples, 80); })
+      .observe(wordGrid, { childList: true });
+  }
+
+})();
 </script>
 </body>
 </html>
