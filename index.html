@@ -191,6 +191,12 @@
   .star-toggle.active { background: #f59e0b; border-color: #f59e0b; }
   .highlight { background: #ffe066; border-radius: 2px; padding: 0 1px; }
   @keyframes fadeUp { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+  @keyframes cardPress { 0% { transform: scale(1); } 40% { transform: scale(0.93); } 100% { transform: scale(1); } }
+  @keyframes rippleOut { 0% { transform: scale(0); opacity: 0.45; } 100% { transform: scale(3.5); opacity: 0; } }
+  .word-card:active { transform: scale(0.95) !important; box-shadow: none !important; }
+  .word-card.card-clicking { animation: cardPress 0.28s cubic-bezier(0.4,0,0.2,1) both !important; }
+  .card-ripple { position: absolute; border-radius: 50%; background: var(--accent); width: 80px; height: 80px; margin-left: -40px; margin-top: -40px; pointer-events: none; animation: rippleOut 0.5s ease-out forwards; opacity: 0; }
+  .word-card.learned .card-ripple { background: var(--learned); }
 
   /* Empty */
   .empty { text-align: center; padding: 80px 20px; color: var(--text-muted); }
@@ -1926,7 +1932,7 @@ function render() {
       if (studyMode) {
         const armenian = (w.meanings || []).slice(0, 3).join(' · ') || '—';
         const phraseHint = (w.phrases || []).slice(0, 1).map(p => p.tr).join('');
-        return `<div class="word-card ${learned?'learned':''}" style="animation-delay:${i*0.03}s" onclick="openGuessModal('${esc(w.word)}')">
+        return `<div class="word-card ${learned?'learned':''}" style="animation-delay:${i*0.03}s" onclick="openGuessModal('${esc(w.word)}',event,this)">
           <div class="card-forms" style="font-size:11px;margin-bottom:5px;color:var(--accent);font-style:normal">🇦🇲 Armenian</div>
           <div class="card-armenian-text">${armenian}</div>
           <div class="card-study-hint">${phraseHint ? phraseHint : 'Click to guess'}</div>
@@ -1941,7 +1947,7 @@ function render() {
       }
 
       const meanings = (w.meanings||[]).slice(0,2).map(m => hl(m)).join(' · ');
-      return `<div class="word-card ${learned?'learned':''}" style="animation-delay:${i*0.03}s" onclick="openModal('${esc(w.word)}')">
+      return `<div class="word-card ${learned?'learned':''}" style="animation-delay:${i*0.03}s" onclick="openModal('${esc(w.word)}',event,this)">
         ${learned ? '<div class="card-learned-badge">✓ Learned</div>' : ''}
         <div class="card-word">${hl(w.word)}</div>
         <div class="card-meanings">${meanings}</div>
@@ -1982,12 +1988,28 @@ function handleStar(word) {
 }
 
 // ── Modal ──
-function openModal(wordStr) {
+function _animateCard(el, e, cb) {
+  if (!el) { cb(); return; }
+  const ripple = document.createElement('span');
+  ripple.className = 'card-ripple';
+  const rect = el.getBoundingClientRect();
+  const cx = (e ? e.clientX : rect.left + rect.width / 2) - rect.left;
+  const cy = (e ? e.clientY : rect.top + rect.height / 2) - rect.top;
+  ripple.style.left = cx + 'px';
+  ripple.style.top = cy + 'px';
+  el.appendChild(ripple);
+  el.classList.add('card-clicking');
+  ripple.addEventListener('animationend', () => ripple.remove(), { once: true });
+  el.addEventListener('animationend', () => el.classList.remove('card-clicking'), { once: true });
+  setTimeout(cb, 140);
+}
+
+function openModal(wordStr, e, el) {
   const filtered = getFiltered();
   const idx = filtered.findIndex(x => x.word === wordStr);
   if (idx === -1) return;
   modalIndex = idx;
-  _showModal(filtered[idx], filtered);
+  _animateCard(el, e, () => _showModal(filtered[idx], filtered));
 }
 
 function _showModal(w, filtered) {
@@ -2150,12 +2172,12 @@ function toggleStudyMode() {
 document.getElementById('study-btn').addEventListener('click', toggleStudyMode);
 
 // ── Guess Modal ──
-function openGuessModal(wordStr) {
+function openGuessModal(wordStr, e, el) {
   const filtered = getFiltered();
   const idx = filtered.findIndex(x => x.word === wordStr);
   if (idx === -1) return;
   guessIndex = idx;
-  _showGuess(filtered[idx], filtered);
+  _animateCard(el, e, () => _showGuess(filtered[idx], filtered));
 }
 
 function _showGuess(w, filtered) {
