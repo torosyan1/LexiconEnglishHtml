@@ -748,6 +748,52 @@
   .diff-btn.hard { color: #dc2626; border-color: #f87171; }
   .diff-btn.hard:hover, .diff-btn.hard.selected { background: #dc2626; color: white; }
 
+  /* ── Car Mode Page ── */
+  .car-pg { position: fixed; inset: 0; background: var(--bg); z-index: 500; flex-direction: column; display: none; overflow: hidden; }
+  .car-pg.open { display: flex; }
+  .car-header { background: var(--surface); border-bottom: 1px solid var(--border); padding: 0 24px; height: 64px; display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-shrink: 0; box-shadow: var(--shadow-sm); }
+  .car-header-title { font-family: 'Fraunces', serif; font-size: 18px; font-weight: 600; color: var(--text); }
+  .car-counter-badge { font-size: 13px; font-weight: 600; color: var(--text-muted); background: var(--surface2); border: 1px solid var(--border); padding: 5px 14px; border-radius: 99px; white-space: nowrap; }
+  .car-prog-track { height: 4px; background: var(--surface2); flex-shrink: 0; }
+  .car-prog-fill { height: 100%; background: linear-gradient(90deg, var(--accent), #e08050); transition: width 0.5s ease; }
+  .car-body { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 24px; gap: 20px; }
+  .car-word-display { text-align: center; }
+  .car-en-word { font-family: 'Fraunces', serif; font-size: clamp(52px, 12vw, 96px); font-weight: 600; color: var(--text); line-height: 1.1; letter-spacing: -2px; margin-bottom: 10px; }
+  .car-translation { font-size: clamp(20px, 5vw, 32px); color: var(--accent); font-weight: 500; min-height: 40px; text-align: center; opacity: 0; transition: opacity 0.5s ease; }
+  .car-translation.show { opacity: 1; }
+  .car-learned-tag { margin-top: 10px; }
+  .car-tag { font-size: 12px; font-weight: 600; padding: 4px 12px; border-radius: 99px; display: inline-block; }
+  .car-tag.learned { background: var(--learned-light); color: var(--learned); }
+  .car-tag.not-learned { background: var(--accent-light); color: var(--accent-dark); }
+  .car-controls { display: flex; align-items: center; gap: 16px; }
+  .car-nav-btn { width: 56px; height: 56px; border-radius: 50%; border: 2px solid var(--border); background: var(--surface); color: var(--text-muted); font-size: 20px; cursor: pointer; transition: all var(--transition); display: flex; align-items: center; justify-content: center; box-shadow: var(--shadow-sm); }
+  .car-nav-btn:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-light); transform: scale(1.06); }
+  .car-nav-btn:active { transform: scale(0.94); }
+  .car-play-btn { width: 72px; height: 72px; border-radius: 50%; border: none; background: var(--accent); color: white; font-size: 26px; cursor: pointer; transition: all var(--transition); display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 20px rgba(200,96,42,0.4); }
+  .car-play-btn:hover { background: var(--accent-dark); transform: scale(1.06); box-shadow: 0 6px 28px rgba(200,96,42,0.5); }
+  .car-play-btn:active { transform: scale(0.94); }
+  .car-play-btn.paused { background: var(--surface); border: 2px solid var(--accent); color: var(--accent); box-shadow: none; }
+  .car-speed-row { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; justify-content: center; }
+  .car-speed-label { font-size: 12px; color: var(--text-muted); font-weight: 500; }
+  .car-speed-btn { padding: 5px 12px; border: 1.5px solid var(--border); border-radius: 99px; background: transparent; font-family: 'DM Sans', sans-serif; font-size: 12px; font-weight: 500; color: var(--text-muted); cursor: pointer; transition: all var(--transition); }
+  .car-speed-btn:hover { border-color: var(--accent); color: var(--accent); }
+  .car-speed-btn.active { background: var(--accent); border-color: var(--accent); color: white; }
+  .car-repeat-row { display: flex; align-items: center; gap: 8px; }
+  .car-repeat-btn { padding: 5px 12px; border: 1.5px solid var(--border); border-radius: 99px; background: transparent; font-family: 'DM Sans', sans-serif; font-size: 12px; font-weight: 500; color: var(--text-muted); cursor: pointer; transition: all var(--transition); }
+  .car-repeat-btn:hover { border-color: var(--accent); color: var(--accent); }
+  .car-repeat-btn.active { background: var(--surface2); border-color: var(--accent); color: var(--accent); }
+  .car-filter-row { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; }
+  .car-filter-btn { padding: 7px 18px; border: 1.5px solid var(--border); border-radius: 99px; background: var(--surface); font-family: 'DM Sans', sans-serif; font-size: 13px; font-weight: 500; color: var(--text-muted); cursor: pointer; transition: all var(--transition); }
+  .car-filter-btn:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-light); }
+  .car-filter-btn.active { background: var(--accent); border-color: var(--accent); color: white; font-weight: 600; }
+  @media (max-width: 640px) {
+    .car-header { padding: 0 14px; height: 56px; }
+    .car-header-title { font-size: 15px; }
+    .car-body { padding: 16px; gap: 14px; }
+    .car-nav-btn { width: 48px; height: 48px; font-size: 17px; }
+    .car-play-btn { width: 64px; height: 64px; font-size: 24px; }
+  }
+
   /* ── Confetti Canvas ── */
   #confetti-canvas { position: fixed; inset: 0; pointer-events: none; z-index: 8000; display: none; }
 
@@ -1541,6 +1587,10 @@
         <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M11 2L4 11h6l-1 7 7-9h-6z"/></svg>
         Test
       </button>
+      <button class="study-mode-btn" id="car-mode-btn" title="Auto-play words with pronunciation — great for listening in the car">
+        <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="8" width="16" height="8" rx="2"/><path d="M5 8V6a3 3 0 0 1 3-3h4a3 3 0 0 1 3 3v2"/><circle cx="6" cy="16" r="1.5" fill="currentColor" stroke="none"/><circle cx="14" cy="16" r="1.5" fill="currentColor" stroke="none"/></svg>
+        Car Mode
+      </button>
     </div>
   </div>
 </div>
@@ -1648,6 +1698,43 @@
   </div>
   <div class="test-pg-bar-track"><div class="test-pg-bar-fill" style="width:100%"></div></div>
   <div class="test-res-body" id="test-res-content"></div>
+</div>
+
+<!-- Car Mode Page -->
+<div class="car-pg" id="car-pg">
+  <div class="car-header">
+    <button class="test-back-btn" id="car-back">← Back</button>
+    <div class="car-header-title">🚗 Car Mode</div>
+    <div class="car-counter-badge" id="car-counter">1 / 0</div>
+  </div>
+  <div class="car-prog-track"><div class="car-prog-fill" id="car-prog-fill" style="width:0%"></div></div>
+  <div class="car-body">
+    <div class="car-filter-row">
+      <button class="car-filter-btn active" data-filter="all">All words</button>
+      <button class="car-filter-btn" data-filter="notlearned">Not learned</button>
+      <button class="car-filter-btn" data-filter="learned">Learned</button>
+    </div>
+    <div class="car-word-display">
+      <div class="car-en-word" id="car-word">—</div>
+      <div class="car-translation" id="car-translation"></div>
+      <div class="car-learned-tag" id="car-learned-tag"></div>
+    </div>
+    <div class="car-controls">
+      <button class="car-nav-btn" id="car-prev" title="Previous">←</button>
+      <button class="car-play-btn" id="car-play" title="Play / Pause">⏸</button>
+      <button class="car-nav-btn" id="car-next" title="Next">→</button>
+    </div>
+    <div class="car-speed-row">
+      <span class="car-speed-label">Delay per word:</span>
+      <button class="car-speed-btn" data-delay="2000">2s</button>
+      <button class="car-speed-btn active" data-delay="4000">4s</button>
+      <button class="car-speed-btn" data-delay="7000">7s</button>
+      <button class="car-speed-btn" data-delay="12000">12s</button>
+    </div>
+    <div class="car-repeat-row">
+      <button class="car-repeat-btn" id="car-repeat-btn">🔁 Loop</button>
+    </div>
+  </div>
 </div>
 
 <main class="main">
@@ -1893,7 +1980,7 @@ let sortMode = 'default';
 let searchQuery = '';
 let modalWord = null;
 let shuffledList = [];
-let activeLetter = '';
+let activeLetters = new Set();
 let modalIndex = -1;
 let studyMode = false;
 let guessWord = null;
@@ -2077,7 +2164,7 @@ function getFiltered() {
     if (w.phrases?.some(p => p.p.toLowerCase().includes(q) || p.tr.toLowerCase().includes(q))) return true;
     return false;
   });
-  if (activeLetter) list = list.filter(w => w.word[0].toUpperCase() === activeLetter);
+  if (activeLetters.size) list = list.filter(w => activeLetters.has(w.word[0].toUpperCase()));
   if (sortMode === 'az') list = [...list].sort((a,b) => a.word.localeCompare(b.word));
   else if (sortMode === 'za') list = [...list].sort((a,b) => b.word.localeCompare(a.word));
   else if (sortMode === 'learned') list = [...list].sort((a,b) => (isLearned(b.word)?1:0)-(isLearned(a.word)?1:0));
@@ -2085,6 +2172,30 @@ function getFiltered() {
   else if (sortMode === 'starred') list = [...list].sort((a,b) => (isStarred(b.word)?1:0)-(isStarred(a.word)?1:0));
   else if (sortMode === 'shuffle') list = shuffledList.filter(w => list.includes(w));
   return list;
+}
+
+function buildLetterBar() {
+  const available = new Set(WORDS_DATA.map(w => w.word[0].toUpperCase()));
+  const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+  const allActive = activeLetters.size === 0;
+  document.getElementById('letter-bar-inner').innerHTML =
+    `<button class="letter-btn ${allActive ? 'active' : ''}" onclick="setLetterFilter('ALL')">All</button>` +
+    alphabet.map(ch =>
+      `<button class="letter-btn ${activeLetters.has(ch) ? 'active' : ''}" ${available.has(ch) ? '' : 'disabled'} onclick="setLetterFilter('${ch}')">${ch}</button>`
+    ).join('');
+  document.getElementById('letter-bar').style.display = '';
+}
+
+function setLetterFilter(letter) {
+  if (letter === 'ALL') {
+    activeLetters.clear();
+  } else {
+    if (activeLetters.has(letter)) activeLetters.delete(letter);
+    else activeLetters.add(letter);
+  }
+  currentPage = 1;
+  buildLetterBar();
+  render();
 }
 
 function updateProgress() {
@@ -2996,6 +3107,177 @@ document.getElementById('test-pg-hint').addEventListener('click', revealTestPage
 document.getElementById('test-pg-audio').addEventListener('click', () => speakWord(testWords[testIndex]?.word));
 document.getElementById('test-pg-next').addEventListener('click', nextTestPageWord);
 
+// ── Car Mode ──
+let carWords = [];
+let carIndex = 0;
+let carPlaying = false;
+let carDelay = 4000;
+let carTimer = null;
+let carTransTimer = null;
+let carLooping = false;
+let carWordFilter = 'all';
+
+function getCarWords() {
+  let list = WORDS_DATA;
+  if (activeLetters.size) list = list.filter(w => activeLetters.has(w.word[0].toUpperCase()));
+  if (carWordFilter === 'learned') list = list.filter(w => isLearned(w.word));
+  else if (carWordFilter === 'notlearned') list = list.filter(w => !isLearned(w.word));
+  return list;
+}
+
+function openCarMode() {
+  carWordFilter = 'all';
+  document.querySelectorAll('.car-filter-btn').forEach(b => b.classList.toggle('active', b.dataset.filter === 'all'));
+  carWords = getCarWords();
+  if (!carWords.length) { showToast('🚗', 'Car Mode', 'No words match the current filter.'); return; }
+  carIndex = 0;
+  carPlaying = true;
+  carLooping = false;
+  document.getElementById('car-repeat-btn').classList.remove('active');
+  document.getElementById('car-play').textContent = '⏸';
+  document.getElementById('car-play').classList.remove('paused');
+  document.getElementById('car-pg').classList.add('open');
+  document.body.style.overflow = 'hidden';
+  showCarWord();
+  scheduleCarNext();
+}
+
+function closeCarMode() {
+  clearTimeout(carTimer);
+  clearTimeout(carTransTimer);
+  speechSynthesis.cancel();
+  carPlaying = false;
+  document.getElementById('car-pg').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+function showCarWord() {
+  const w = carWords[carIndex];
+  if (!w) return;
+  const wordEl = document.getElementById('car-word');
+  const transEl = document.getElementById('car-translation');
+  const tagEl = document.getElementById('car-learned-tag');
+  const counterEl = document.getElementById('car-counter');
+  const fillEl = document.getElementById('car-prog-fill');
+
+  wordEl.textContent = w.word;
+  transEl.textContent = '';
+  transEl.classList.remove('show');
+
+  const learned = isLearned(w.word);
+  tagEl.innerHTML = `<span class="car-tag ${learned ? 'learned' : 'not-learned'}">${learned ? '✓ Learned' : '○ Not learned yet'}</span>`;
+  counterEl.textContent = `${carIndex + 1} / ${carWords.length}`;
+  fillEl.style.width = `${((carIndex + 1) / carWords.length) * 100}%`;
+
+  speakWord(w.word);
+
+  clearTimeout(carTransTimer);
+  carTransTimer = setTimeout(() => {
+    transEl.textContent = (w.meanings || []).slice(0, 4).join(' · ');
+    transEl.classList.add('show');
+  }, 1500);
+}
+
+function scheduleCarNext() {
+  clearTimeout(carTimer);
+  if (!carPlaying) return;
+  carTimer = setTimeout(() => {
+    if (!carPlaying) return;
+    if (carIndex < carWords.length - 1) {
+      carIndex++;
+      showCarWord();
+      scheduleCarNext();
+    } else if (carLooping) {
+      carIndex = 0;
+      showCarWord();
+      scheduleCarNext();
+    } else {
+      carPlaying = false;
+      const btn = document.getElementById('car-play');
+      btn.textContent = '▶';
+      btn.classList.add('paused');
+    }
+  }, carDelay);
+}
+
+document.getElementById('car-mode-btn').addEventListener('click', openCarMode);
+document.getElementById('car-back').addEventListener('click', closeCarMode);
+
+document.getElementById('car-play').addEventListener('click', () => {
+  carPlaying = !carPlaying;
+  const btn = document.getElementById('car-play');
+  if (carPlaying) {
+    btn.textContent = '⏸';
+    btn.classList.remove('paused');
+    if (carIndex >= carWords.length - 1 && !carLooping) { carIndex = 0; showCarWord(); }
+    scheduleCarNext();
+  } else {
+    btn.textContent = '▶';
+    btn.classList.add('paused');
+    clearTimeout(carTimer);
+  }
+});
+
+document.getElementById('car-prev').addEventListener('click', () => {
+  clearTimeout(carTimer);
+  clearTimeout(carTransTimer);
+  speechSynthesis.cancel();
+  if (carIndex > 0) { carIndex--; showCarWord(); }
+  if (carPlaying) scheduleCarNext();
+});
+
+document.getElementById('car-next').addEventListener('click', () => {
+  clearTimeout(carTimer);
+  clearTimeout(carTransTimer);
+  speechSynthesis.cancel();
+  if (carIndex < carWords.length - 1) { carIndex++; showCarWord(); }
+  else if (carLooping) { carIndex = 0; showCarWord(); }
+  if (carPlaying) scheduleCarNext();
+});
+
+document.getElementById('car-repeat-btn').addEventListener('click', () => {
+  carLooping = !carLooping;
+  document.getElementById('car-repeat-btn').classList.toggle('active', carLooping);
+});
+
+document.querySelectorAll('.car-filter-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    carWordFilter = btn.dataset.filter;
+    document.querySelectorAll('.car-filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    clearTimeout(carTimer);
+    clearTimeout(carTransTimer);
+    speechSynthesis.cancel();
+    carWords = getCarWords();
+    carIndex = 0;
+    const playBtn = document.getElementById('car-play');
+    if (!carWords.length) {
+      document.getElementById('car-word').textContent = '—';
+      document.getElementById('car-translation').textContent = 'No words in this filter';
+      document.getElementById('car-translation').classList.add('show');
+      document.getElementById('car-learned-tag').innerHTML = '';
+      document.getElementById('car-counter').textContent = '0 / 0';
+      document.getElementById('car-prog-fill').style.width = '0%';
+      carPlaying = false;
+      playBtn.textContent = '▶';
+      playBtn.classList.add('paused');
+      return;
+    }
+    showCarWord();
+    if (carPlaying) scheduleCarNext();
+    else { playBtn.textContent = '⏸'; playBtn.classList.remove('paused'); carPlaying = true; scheduleCarNext(); }
+  });
+});
+
+document.querySelectorAll('.car-speed-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    carDelay = parseInt(btn.dataset.delay);
+    document.querySelectorAll('.car-speed-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    if (carPlaying) { clearTimeout(carTimer); scheduleCarNext(); }
+  });
+});
+
 function sortWordsAZ(words) {
   return [...words].sort((a, b) =>
     a.word.localeCompare(b.word, "en", { sensitivity: "base" })
@@ -3452,6 +3734,7 @@ fetch('words.json')
     shuffledList = shuffle(WORDS_DATA);
     updateStreak();
     checkAchievements();
+    buildLetterBar();
     render();
   })
   .catch(err => {
