@@ -1,0 +1,8532 @@
+[
+    {
+        "word": "go",
+        "meanings": [
+            "գնալ",
+            "շարժվել"
+        ],
+        "forms": [
+            "go",
+            "goes",
+            "went",
+            "gone",
+            "going"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "I go to school",
+                        "hy": "Ես գնում եմ դպրոց"
+                    }
+                ]
+            },
+            {
+                "type": "Verb (movement)",
+                "examples": [
+                    {
+                        "en": "The car goes fast",
+                        "hy": "Մեքենան արագ է գնում"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "go on",
+                "tr": "շարունակել",
+                "ex": "Go on talking",
+                "hy": "Շարունակի խոսել"
+            },
+            {
+                "p": "go out",
+                "tr": "դուրս գալ",
+                "ex": "We go out at night",
+                "hy": "Մենք գիշերը դուրս ենք գալիս"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "What does 'go' mean?",
+                "correct": "գնալ",
+                "options": [
+                    "գնալ",
+                    "կանգնել",
+                    "ուտել",
+                    "խոսել"
+                ]
+            },
+            {
+                "question": "Past tense of 'go' is:",
+                "correct": "went",
+                "options": [
+                    "went",
+                    "goed",
+                    "gone",
+                    "goes"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "come",
+        "meanings": [
+            "գալ",
+            "հասնել"
+        ],
+        "forms": [
+            "come",
+            "comes",
+            "came",
+            "come",
+            "coming"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "Come here",
+                        "hy": "Արի այստեղ"
+                    }
+                ]
+            },
+            {
+                "type": "Verb (arrive)",
+                "examples": [
+                    {
+                        "en": "He came late",
+                        "hy": "Նա ուշ եկավ"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "come back",
+                "tr": "վերադառնալ",
+                "ex": "Come back soon",
+                "hy": "Շուտ վերադարձիր"
+            },
+            {
+                "p": "come in",
+                "tr": "ներս գալ",
+                "ex": "Come in please",
+                "hy": "Մտիր խնդրում եմ"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "Past tense of 'come' is:",
+                "correct": "came",
+                "options": [
+                    "came",
+                    "comed",
+                    "come",
+                    "comes"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "see",
+        "meanings": [
+            "տեսնել",
+            "նկատել"
+        ],
+        "forms": [
+            "see",
+            "sees",
+            "saw",
+            "seen",
+            "seeing"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "I see a bird",
+                        "hy": "Ես տեսնում եմ թռչուն"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "see you",
+                "tr": "կտեսնվենք",
+                "ex": "See you tomorrow",
+                "hy": "Կտեսնվենք վաղը"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "Past tense of 'see' is:",
+                "correct": "saw",
+                "options": [
+                    "saw",
+                    "seed",
+                    "seen",
+                    "see"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "give",
+        "meanings": [
+            "տալ",
+            "նվիրել"
+        ],
+        "forms": [
+            "give",
+            "gives",
+            "gave",
+            "given",
+            "giving"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "Give me the book",
+                        "hy": "Տուր ինձ գիրքը"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "give up",
+                "tr": "հանձնվել",
+                "ex": "Don't give up",
+                "hy": "Մի հանձնվիր"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "Past tense of 'give' is:",
+                "correct": "gave",
+                "options": [
+                    "gave",
+                    "gived",
+                    "given",
+                    "gives"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "find",
+        "meanings": [
+            "գտնել",
+            "հայտնաբերել"
+        ],
+        "forms": [
+            "find",
+            "finds",
+            "found",
+            "found",
+            "finding"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "I found my keys",
+                        "hy": "Ես գտա իմ բանալիները"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "find out",
+                "tr": "պարզել",
+                "ex": "Find out the truth",
+                "hy": "Պարզիր ճշմարտությունը"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "Past tense of 'find' is:",
+                "correct": "found",
+                "options": [
+                    "found",
+                    "finded",
+                    "founded",
+                    "finds"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "tell",
+        "meanings": [
+            "պատմել",
+            "ասել"
+        ],
+        "forms": [
+            "tell",
+            "tells",
+            "told",
+            "told",
+            "telling"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "Tell me the truth",
+                        "hy": "Ասա ինձ ճշմարտությունը"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "tell apart",
+                "tr": "տարբերել",
+                "ex": "I can't tell them apart",
+                "hy": "Չեմ կարող տարբերել նրանց"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "Past tense of 'tell' is:",
+                "correct": "told",
+                "options": [
+                    "told",
+                    "telled",
+                    "tell",
+                    "tells"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "try",
+        "meanings": [
+            "փորձել",
+            "ջանալ"
+        ],
+        "forms": [
+            "try",
+            "tries",
+            "tried",
+            "trying"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "Try again",
+                        "hy": "Փորձիր կրկին"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "try on",
+                "tr": "հագնել փորձելու համար",
+                "ex": "Try on this shirt",
+                "hy": "Փորձիր այս շապիկը"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "Past tense of 'try' is:",
+                "correct": "tried",
+                "options": [
+                    "tried",
+                    "tryed",
+                    "tries",
+                    "trying"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "ask",
+        "meanings": [
+            "հարցնել",
+            "խնդրել"
+        ],
+        "forms": [
+            "ask",
+            "asks",
+            "asked",
+            "asking"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "Ask a question",
+                        "hy": "Հարց տուր"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "ask for",
+                "tr": "խնդրել",
+                "ex": "Ask for help",
+                "hy": "Խնդրիր օգնություն"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "What does 'ask' mean?",
+                "correct": "հարցնել",
+                "options": [
+                    "հարցնել",
+                    "ասել",
+                    "լսել",
+                    "գնալ"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "need",
+        "meanings": [
+            "պետք ունենալ",
+            "կարիք ունենալ"
+        ],
+        "forms": [
+            "need",
+            "needs",
+            "needed",
+            "needing"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "I need help",
+                        "hy": "Ես օգնության կարիք ունեմ"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "need to",
+                "tr": "պետք է",
+                "ex": "I need to go",
+                "hy": "Ես պետք է գնամ"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "What does 'need' mean?",
+                "correct": "պետք ունենալ",
+                "options": [
+                    "պետք ունենալ",
+                    "ուզել",
+                    "գնալ",
+                    "տեսնել"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "become",
+        "meanings": [
+            "դառնալ",
+            "վերածվել"
+        ],
+        "forms": [
+            "become",
+            "becomes",
+            "became",
+            "become",
+            "becoming"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "He became famous",
+                        "hy": "Նա դարձավ հայտնի"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "become of",
+                "tr": "ինչ եղավ",
+                "ex": "What became of him?",
+                "hy": "Ինչ եղավ նրան?"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "Past tense of 'become' is:",
+                "correct": "became",
+                "options": [
+                    "became",
+                    "becomed",
+                    "become",
+                    "becomes"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "leave",
+        "meanings": [
+            "թողնել",
+            "հեռանալ"
+        ],
+        "forms": [
+            "leave",
+            "leaves",
+            "left",
+            "left",
+            "leaving"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "I leave at 5",
+                        "hy": "Ես գնում եմ ժամը 5-ին"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "leave out",
+                "tr": "բաց թողնել",
+                "ex": "Don't leave out details",
+                "hy": "Մի թող բաց մանրամասները"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "Past tense of 'leave' is:",
+                "correct": "left",
+                "options": [
+                    "left",
+                    "leaved",
+                    "leave",
+                    "leaves"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "put",
+        "meanings": [
+            "դնել",
+            "տեղադրել"
+        ],
+        "forms": [
+            "put",
+            "puts",
+            "put",
+            "put",
+            "putting"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "Put it here",
+                        "hy": "Դիր դա այստեղ"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "put on",
+                "tr": "հագնել",
+                "ex": "Put on your coat",
+                "hy": "Հագիր վերարկուդ"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "Past tense of 'put' is:",
+                "correct": "put",
+                "options": [
+                    "put",
+                    "puted",
+                    "puts",
+                    "putting"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "mean",
+        "meanings": [
+            "նշանակել",
+            "նկատի ունենալ"
+        ],
+        "forms": [
+            "mean",
+            "means",
+            "meant",
+            "meant",
+            "meaning"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "What does it mean?",
+                        "hy": "Ինչ է դա նշանակում?"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "mean well",
+                "tr": "լավ մտադրություն ունենալ",
+                "ex": "I mean well",
+                "hy": "Ես լավ մտադրություն ունեմ"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "Past tense of 'mean' is:",
+                "correct": "meant",
+                "options": [
+                    "meant",
+                    "meaned",
+                    "means",
+                    "meaning"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "keep",
+        "meanings": [
+            "պահել",
+            "շարունակել"
+        ],
+        "forms": [
+            "keep",
+            "keeps",
+            "kept",
+            "kept",
+            "keeping"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "Keep the change",
+                        "hy": "Պահիր մանրը"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "keep on",
+                "tr": "շարունակել",
+                "ex": "Keep on working",
+                "hy": "Շարունակի աշխատել"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "Past tense of 'keep' is:",
+                "correct": "kept",
+                "options": [
+                    "kept",
+                    "keeped",
+                    "keeps",
+                    "keeping"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "let",
+        "meanings": [
+            "թույլ տալ",
+            "թողնել"
+        ],
+        "forms": [
+            "let",
+            "lets",
+            "let",
+            "let",
+            "letting"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "Let me go",
+                        "hy": "Թող ինձ գնամ"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "let go",
+                "tr": "թողնել",
+                "ex": "Let it go",
+                "hy": "Թող դա անցնի"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "Past tense of 'let' is:",
+                "correct": "let",
+                "options": [
+                    "let",
+                    "letted",
+                    "lets",
+                    "letting"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "begin",
+        "meanings": [
+            "սկսել",
+            "մեկնարկել"
+        ],
+        "forms": [
+            "begin",
+            "begins",
+            "began",
+            "begun",
+            "beginning"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "Let's begin the lesson",
+                        "hy": "Եկ սկսենք դասը"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "begin with",
+                "tr": "սկսել ինչ-որ բանով",
+                "ex": "Begin with this task",
+                "hy": "Սկսիր այս առաջադրանքով"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "Past tense of 'begin' is:",
+                "correct": "began",
+                "options": [
+                    "began",
+                    "begined",
+                    "begun",
+                    "begins"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "seem",
+        "meanings": [
+            "թվալ",
+            "երևալ"
+        ],
+        "forms": [
+            "seem",
+            "seems",
+            "seemed",
+            "seeming"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "It seems easy",
+                        "hy": "Դա հեշտ է թվում"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "seem like",
+                "tr": "թվալ ինչպես",
+                "ex": "It seems like a dream",
+                "hy": "Դա երազի պես է թվում"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "What does 'seem' mean?",
+                "correct": "թվալ",
+                "options": [
+                    "թվալ",
+                    "վազել",
+                    "ուտել",
+                    "կարդալ"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "help",
+        "meanings": [
+            "օգնել",
+            "օգնություն"
+        ],
+        "forms": [
+            "help",
+            "helps",
+            "helped",
+            "helping"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "Help me please",
+                        "hy": "Օգնիր ինձ խնդրում եմ"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "help out",
+                "tr": "օգնել",
+                "ex": "Can you help out?",
+                "hy": "Կարո՞ղ ես օգնել"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "What does 'help' mean?",
+                "correct": "օգնել",
+                "options": [
+                    "օգնել",
+                    "խոսել",
+                    "տեսնել",
+                    "գնալ"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "talk",
+        "meanings": [
+            "խոսել",
+            "զրուցել"
+        ],
+        "forms": [
+            "talk",
+            "talks",
+            "talked",
+            "talking"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "We talk every day",
+                        "hy": "Մենք ամեն օր խոսում ենք"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "talk about",
+                "tr": "խոսել մասին",
+                "ex": "Let's talk about it",
+                "hy": "Եկ խոսենք դրա մասին"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "Past tense of 'talk' is:",
+                "correct": "talked",
+                "options": [
+                    "talked",
+                    "talken",
+                    "talks",
+                    "talking"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "turn",
+        "meanings": [
+            "շրջել",
+            "դառնալ"
+        ],
+        "forms": [
+            "turn",
+            "turns",
+            "turned",
+            "turning"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "Turn left",
+                        "hy": "Շրջիր ձախ"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "turn on",
+                "tr": "միացնել",
+                "ex": "Turn on the light",
+                "hy": "Միացրու լույսը"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "What does 'turn on' mean?",
+                "correct": "միացնել",
+                "options": [
+                    "միացնել",
+                    "անջատել",
+                    "շրջել",
+                    "գնալ"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "start",
+        "meanings": [
+            "սկսել",
+            "մեկնարկել"
+        ],
+        "forms": [
+            "start",
+            "starts",
+            "started",
+            "starting"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "Start now",
+                        "hy": "Սկսիր հիմա"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "start over",
+                "tr": "սկսել նորից",
+                "ex": "Start over again",
+                "hy": "Սկսիր նորից"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "Past tense of 'start' is:",
+                "correct": "started",
+                "options": [
+                    "started",
+                    "starten",
+                    "starts",
+                    "starting"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "show",
+        "meanings": [
+            "ցույց տալ",
+            "ցուցադրել"
+        ],
+        "forms": [
+            "show",
+            "shows",
+            "showed",
+            "shown",
+            "showing"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "Show me the way",
+                        "hy": "Ցույց տուր ինձ ճանապարհը"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "show up",
+                "tr": "երևալ",
+                "ex": "He didn't show up",
+                "hy": "Նա չերևաց"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "Past tense of 'show' is:",
+                "correct": "showed",
+                "options": [
+                    "showed",
+                    "shown",
+                    "show",
+                    "shows"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "hear",
+        "meanings": [
+            "լսել",
+            "լսել (ձայն)"
+        ],
+        "forms": [
+            "hear",
+            "hears",
+            "heard",
+            "heard",
+            "hearing"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "I hear music",
+                        "hy": "Ես երաժշտություն եմ լսում"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "hear from",
+                "tr": "լուր ստանալ",
+                "ex": "I heard from him",
+                "hy": "Ես նրանից լուր ստացա"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "Past tense of 'hear' is:",
+                "correct": "heard",
+                "options": [
+                    "heard",
+                    "heared",
+                    "hear",
+                    "hears"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "play",
+        "meanings": [
+            "խաղալ",
+            "նվագել"
+        ],
+        "forms": [
+            "play",
+            "plays",
+            "played",
+            "playing"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "Children play outside",
+                        "hy": "Երեխաները դրսում խաղում են"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "play with",
+                "tr": "խաղալ հետ",
+                "ex": "Play with me",
+                "hy": "Խաղա ինձ հետ"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "Past tense of 'play' is:",
+                "correct": "played",
+                "options": [
+                    "played",
+                    "playen",
+                    "plays",
+                    "playing"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "move",
+        "meanings": [
+            "շարժվել",
+            "տեղափոխվել"
+        ],
+        "forms": [
+            "move",
+            "moves",
+            "moved",
+            "moving"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "Move forward",
+                        "hy": "Շարժվիր առաջ"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "move on",
+                "tr": "շարունակել",
+                "ex": "Let's move on",
+                "hy": "Եկ շարունակենք"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "What does 'move' mean?",
+                "correct": "շարժվել",
+                "options": [
+                    "շարժվել",
+                    "կանգնել",
+                    "խոսել",
+                    "ուտել"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "open",
+        "meanings": [
+            "բացել",
+            "բաց լինել"
+        ],
+        "forms": [
+            "open",
+            "opens",
+            "opened",
+            "opening"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "Open the door",
+                        "hy": "Բացի՛ր դուռը"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "open up",
+                "tr": "բացվել / բացել",
+                "ex": "He opened up to me",
+                "hy": "Նա բացվեց ինձ"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "What does 'open' mean?",
+                "correct": "բացել",
+                "options": [
+                    "բացել",
+                    "փակել",
+                    "վազել",
+                    "ուտել"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "close",
+        "meanings": [
+            "փակել",
+            "մոտ լինել"
+        ],
+        "forms": [
+            "close",
+            "closes",
+            "closed",
+            "closing"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "Close the window",
+                        "hy": "Փակի՛ր պատուհանը"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "close to",
+                "tr": "մոտ լինել",
+                "ex": "I am close to you",
+                "hy": "Ես քեզ մոտ եմ"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "Past tense of 'close' is:",
+                "correct": "closed",
+                "options": [
+                    "closed",
+                    "close",
+                    "closes",
+                    "closing"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "read",
+        "meanings": [
+            "կարդալ"
+        ],
+        "forms": [
+            "read",
+            "reads",
+            "read",
+            "read",
+            "reading"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "I read books",
+                        "hy": "Ես գրքեր եմ կարդում"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "read aloud",
+                "tr": "բարձրաձայն կարդալ",
+                "ex": "Read aloud please",
+                "hy": "Կարդա բարձրաձայն"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "Past tense of 'read' is:",
+                "correct": "read",
+                "options": [
+                    "read",
+                    "readed",
+                    "reads",
+                    "reading"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "learn",
+        "meanings": [
+            "սովորել"
+        ],
+        "forms": [
+            "learn",
+            "learns",
+            "learned",
+            "learning"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "I learn English",
+                        "hy": "Ես սովորում եմ անգլերեն"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "learn by heart",
+                "tr": "սովորել անգիր",
+                "ex": "Learn this by heart",
+                "hy": "Սա սովորիր անգիր"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "What does 'learn' mean?",
+                "correct": "սովորել",
+                "options": [
+                    "սովորել",
+                    "սովորեցնել",
+                    "գրել",
+                    "խոսել"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "teach",
+        "meanings": [
+            "սովորեցնել"
+        ],
+        "forms": [
+            "teach",
+            "teaches",
+            "taught",
+            "taught",
+            "teaching"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "She teaches math",
+                        "hy": "Նա մաթեմատիկա է սովորեցնում"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "teach someone",
+                "tr": "սովորեցնել մեկին",
+                "ex": "Teach me English",
+                "hy": "Սովորեցրու ինձ անգլերեն"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "Past tense of 'teach' is:",
+                "correct": "taught",
+                "options": [
+                    "taught",
+                    "teached",
+                    "teach",
+                    "teaches"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "watch",
+        "meanings": [
+            "նայել",
+            "դիտել"
+        ],
+        "forms": [
+            "watch",
+            "watches",
+            "watched",
+            "watching"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "I watch TV",
+                        "hy": "Ես հեռուստացույց եմ դիտում"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "watch out",
+                "tr": "զգուշանալ",
+                "ex": "Watch out!",
+                "hy": "Զգուշացիր!"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "What does 'watch out' mean?",
+                "correct": "զգուշանալ",
+                "options": [
+                    "զգուշանալ",
+                    "նայել",
+                    "խոսել",
+                    "գնալ"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "listen",
+        "meanings": [
+            "լսել"
+        ],
+        "forms": [
+            "listen",
+            "listens",
+            "listened",
+            "listening"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "Listen to me",
+                        "hy": "Լսիր ինձ"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "listen to",
+                "tr": "լսել",
+                "ex": "Listen to music",
+                "hy": "Լսիր երաժշտություն"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "What does 'listen' mean?",
+                "correct": "լսել",
+                "options": [
+                    "լսել",
+                    "տեսնել",
+                    "կարդալ",
+                    "խոսել"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "buy",
+        "meanings": [
+            "գնել"
+        ],
+        "forms": [
+            "buy",
+            "buys",
+            "bought",
+            "bought",
+            "buying"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "I buy food",
+                        "hy": "Ես սնունդ եմ գնում"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "buy for",
+                "tr": "գնել համար",
+                "ex": "Buy it for me",
+                "hy": "Գնի՛ր դա ինձ համար"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "Past tense of 'buy' is:",
+                "correct": "bought",
+                "options": [
+                    "bought",
+                    "buyed",
+                    "buys",
+                    "buy"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "sell",
+        "meanings": [
+            "վաճառել"
+        ],
+        "forms": [
+            "sell",
+            "sells",
+            "sold",
+            "sold",
+            "selling"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "They sell cars",
+                        "hy": "Նրանք մեքենաներ են վաճառում"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "sell out",
+                "tr": "լիովին վաճառվել",
+                "ex": "Tickets sold out",
+                "hy": "Տոմսերը սպառվեցին"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "Past tense of 'sell' is:",
+                "correct": "sold",
+                "options": [
+                    "sold",
+                    "selled",
+                    "sell",
+                    "sells"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "build",
+        "meanings": [
+            "կառուցել"
+        ],
+        "forms": [
+            "build",
+            "builds",
+            "built",
+            "built",
+            "building"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "They build houses",
+                        "hy": "Նրանք տներ են կառուցում"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "build up",
+                "tr": "կուտակել",
+                "ex": "Build up strength",
+                "hy": "Կուտակի՛ր ուժ"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "Past tense of 'build' is:",
+                "correct": "built",
+                "options": [
+                    "built",
+                    "builded",
+                    "build",
+                    "builds"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "work",
+        "meanings": [
+            "աշխատել",
+            "աշխատանք"
+        ],
+        "forms": [
+            "work",
+            "works",
+            "worked",
+            "working"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "I work every day",
+                        "hy": "Ես ամեն օր աշխատում եմ"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "work on",
+                "tr": "աշխատել վրա",
+                "ex": "Work on your project",
+                "hy": "Աշխատիր քո նախագծի վրա"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "What does 'work' mean?",
+                "correct": "աշխատել",
+                "options": [
+                    "աշխատել",
+                    "քնել",
+                    "ուտել",
+                    "վազել"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "study",
+        "meanings": [
+            "ուսումնասիրել",
+            "սովորել"
+        ],
+        "forms": [
+            "study",
+            "studies",
+            "studied",
+            "studying"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "I study English",
+                        "hy": "Ես անգլերեն եմ սովորում"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "study hard",
+                "tr": "քրտնաջան սովորել",
+                "ex": "Study hard for exams",
+                "hy": "Քրտնաջան սովորիր քննությունների համար"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "Past tense of 'study' is:",
+                "correct": "studied",
+                "options": [
+                    "studied",
+                    "studyed",
+                    "studies",
+                    "studying"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "travel",
+        "meanings": [
+            "ճամփորդել"
+        ],
+        "forms": [
+            "travel",
+            "travels",
+            "traveled",
+            "traveling"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "I travel a lot",
+                        "hy": "Ես շատ եմ ճամփորդում"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "travel around",
+                "tr": "շրջել աշխարհով",
+                "ex": "Travel around the world",
+                "hy": "Շրջել աշխարհով"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "What does 'travel' mean?",
+                "correct": "ճամփորդել",
+                "options": [
+                    "ճամփորդել",
+                    "քնել",
+                    "խոսել",
+                    "գնել"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "wait",
+        "meanings": [
+            "սպասել"
+        ],
+        "forms": [
+            "wait",
+            "waits",
+            "waited",
+            "waiting"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "Wait for me",
+                        "hy": "Սպասիր ինձ"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "wait for",
+                "tr": "սպասել",
+                "ex": "Wait for the bus",
+                "hy": "Սպասիր ավտոբուսին"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "What does 'wait' mean?",
+                "correct": "սպասել",
+                "options": [
+                    "սպասել",
+                    "վազել",
+                    "ուտել",
+                    "կարդալ"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "send",
+        "meanings": [
+            "ուղարկել"
+        ],
+        "forms": [
+            "send",
+            "sends",
+            "sent",
+            "sent",
+            "sending"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "Send me a message",
+                        "hy": "Ուղարկիր ինձ հաղորդագրություն"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "send back",
+                "tr": "ետ ուղարկել",
+                "ex": "Send it back",
+                "hy": "Ուղարկիր հետ"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "Past tense of 'send' is:",
+                "correct": "sent",
+                "options": [
+                    "sent",
+                    "sended",
+                    "send",
+                    "sends"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "call",
+        "meanings": [
+            "զանգել",
+            "կանչել"
+        ],
+        "forms": [
+            "call",
+            "calls",
+            "called",
+            "calling"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "Call me later",
+                        "hy": "Զանգիր ինձ հետո"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "call back",
+                "tr": "հետ զանգել",
+                "ex": "I will call you back",
+                "hy": "Ես քեզ հետ կզանգեմ"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "What does 'call' mean?",
+                "correct": "զանգել",
+                "options": [
+                    "զանգել",
+                    "գրել",
+                    "կարդալ",
+                    "ուտել"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "move",
+        "meanings": [
+            "շարժվել",
+            "տեղափոխվել"
+        ],
+        "forms": [
+            "move",
+            "moves",
+            "moved",
+            "moving"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "Move here",
+                        "hy": "Շարժվիր այստեղ"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "move on",
+                "tr": "շարունակել",
+                "ex": "Move on quickly",
+                "hy": "Արագ շարունակիր"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "What does 'move' mean?",
+                "correct": "շարժվել",
+                "options": [
+                    "շարժվել",
+                    "քնել",
+                    "ուտել",
+                    "խոսել"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "live",
+        "meanings": [
+            "ապրել",
+            "բնակվել"
+        ],
+        "forms": [
+            "live",
+            "lives",
+            "lived",
+            "living"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "We live here",
+                        "hy": "Մենք այստեղ ենք ապրում"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "live in",
+                "tr": "ապրել մեջ",
+                "ex": "Live in a city",
+                "hy": "Ապրիր քաղաքում"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "What does 'live' mean?",
+                "correct": "ապրել",
+                "options": [
+                    "ապրել",
+                    "վազել",
+                    "գրել",
+                    "ուտել"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "die",
+        "meanings": [
+            "մեռնել",
+            "անհետանալ"
+        ],
+        "forms": [
+            "die",
+            "dies",
+            "died",
+            "dying"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "Plants die without water",
+                        "hy": "Բույսերը մահանում են առանց ջրի"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "die out",
+                "tr": "անհետանալ",
+                "ex": "Dinosaurs died out",
+                "hy": "Դինոզավրերը անհետացան"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "Past tense of 'die' is:",
+                "correct": "died",
+                "options": [
+                    "died",
+                    "dieed",
+                    "dies",
+                    "dying"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "ask",
+        "meanings": [
+            "հարցնել",
+            "խնդրել"
+        ],
+        "forms": [
+            "ask",
+            "asks",
+            "asked",
+            "asking"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "Ask a question",
+                        "hy": "Հարց տուր"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "ask for",
+                "tr": "խնդրել",
+                "ex": "Ask for help",
+                "hy": "Խնդրիր օգնություն"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "What does 'ask' mean?",
+                "correct": "հարցնել",
+                "options": [
+                    "հարցնել",
+                    "գրել",
+                    "ուտել",
+                    "վազել"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "live",
+        "meanings": [
+            "ապրել",
+            "բնակվել"
+        ],
+        "forms": [
+            "live",
+            "lives",
+            "lived",
+            "living"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "I live in Yerevan",
+                        "hy": "Ես ապրում եմ Երևանում"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "live on",
+                "tr": "ապրել (շարունակել)",
+                "ex": "He lives on after the accident",
+                "hy": "Նա շարունակում է ապրել վթարից հետո"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "What does 'live' mean?",
+                "correct": "ապրել",
+                "options": [
+                    "ապրել",
+                    "վազել",
+                    "կարդալ",
+                    "ուտել"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "believe",
+        "meanings": [
+            "հավատալ",
+            "վստահել"
+        ],
+        "forms": [
+            "believe",
+            "believes",
+            "believed",
+            "believing"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "I believe you",
+                        "hy": "Ես հավատում եմ քեզ"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "believe in",
+                "tr": "հավատալ ինչ-որ բանի",
+                "ex": "Believe in yourself",
+                "hy": "Հավատա քեզ"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "What does 'believe' mean?",
+                "correct": "հավատալ",
+                "options": [
+                    "հավատալ",
+                    "տեսնել",
+                    "լսել",
+                    "խոսել"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "bring",
+        "meanings": [
+            "բերել",
+            "տանել (հետ բերել)"
+        ],
+        "forms": [
+            "bring",
+            "brings",
+            "brought",
+            "brought",
+            "bringing"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "Bring me water",
+                        "hy": "Բեր ինձ ջուր"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "bring up",
+                "tr": "բարձրացնել թեմա",
+                "ex": "Don't bring it up",
+                "hy": "Մի բարձրացրու դա"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "Past tense of 'bring' is:",
+                "correct": "brought",
+                "options": [
+                    "brought",
+                    "bringed",
+                    "brang",
+                    "brings"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "write",
+        "meanings": [
+            "գրել",
+            "արձանագրել"
+        ],
+        "forms": [
+            "write",
+            "writes",
+            "wrote",
+            "written",
+            "writing"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "Write your name",
+                        "hy": "Գրի՛ր քո անունը"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "write down",
+                "tr": "գրել",
+                "ex": "Write it down",
+                "hy": "Գրի՛ր դա"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "Past tense of 'write' is:",
+                "correct": "wrote",
+                "options": [
+                    "wrote",
+                    "writed",
+                    "written",
+                    "writes"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "sit",
+        "meanings": [
+            "նստել",
+            "նստած լինել"
+        ],
+        "forms": [
+            "sit",
+            "sits",
+            "sat",
+            "sat",
+            "sitting"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "Sit here",
+                        "hy": "Նստիր այստեղ"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "sit down",
+                "tr": "նստել",
+                "ex": "Sit down please",
+                "hy": "Նստիր խնդրում եմ"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "Past tense of 'sit' is:",
+                "correct": "sat",
+                "options": [
+                    "sat",
+                    "sitted",
+                    "sit",
+                    "sits"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "stand",
+        "meanings": [
+            "կանգնել",
+            "դիմանալ"
+        ],
+        "forms": [
+            "stand",
+            "stands",
+            "stood",
+            "stood",
+            "standing"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "Stand up",
+                        "hy": "Կանգնի՛ր"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "stand up",
+                "tr": "կանգնել",
+                "ex": "Stand up now",
+                "hy": "Կանգնի՛ր հիմա"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "Past tense of 'stand' is:",
+                "correct": "stood",
+                "options": [
+                    "stood",
+                    "standed",
+                    "stands",
+                    "standing"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "lose",
+        "meanings": [
+            "կորցնել",
+            "պարտվել"
+        ],
+        "forms": [
+            "lose",
+            "loses",
+            "lost",
+            "lost",
+            "losing"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "Don't lose your keys",
+                        "hy": "Մի կորցրու քո բանալիները"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "lose weight",
+                "tr": "նիհարել",
+                "ex": "I want to lose weight",
+                "hy": "Ուզում եմ նիհարել"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "Past tense of 'lose' is:",
+                "correct": "lost",
+                "options": [
+                    "lost",
+                    "losed",
+                    "lose",
+                    "loses"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "pay",
+        "meanings": [
+            "վճարել",
+            "մարել"
+        ],
+        "forms": [
+            "pay",
+            "pays",
+            "paid",
+            "paid",
+            "paying"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "I pay the bill",
+                        "hy": "Ես վճարում եմ հաշիվը"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "pay attention",
+                "tr": "ուշադրություն դարձնել",
+                "ex": "Pay attention",
+                "hy": "Ուշադրություն դարձրու"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "Past tense of 'pay' is:",
+                "correct": "paid",
+                "options": [
+                    "paid",
+                    "payed",
+                    "pay",
+                    "pays"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "meet",
+        "meanings": [
+            "հանդիպել",
+            "ծանոթանալ"
+        ],
+        "forms": [
+            "meet",
+            "meets",
+            "met",
+            "met",
+            "meeting"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "Nice to meet you",
+                        "hy": "Ուրախ եմ քեզ հանդիպելու համար"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "meet up",
+                "tr": "հանդիպել",
+                "ex": "Let's meet up",
+                "hy": "Եկ հանդիպենք"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "Past tense of 'meet' is:",
+                "correct": "met",
+                "options": [
+                    "met",
+                    "meeted",
+                    "meet",
+                    "meets"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "include",
+        "meanings": [
+            "ներառել",
+            "պարունակել"
+        ],
+        "forms": [
+            "include",
+            "includes",
+            "included",
+            "including"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "The price includes tax",
+                        "hy": "Գինը ներառում է հարկը"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "include in",
+                "tr": "ներառել մեջ",
+                "ex": "Include it in the list",
+                "hy": "Ներառիր դա ցուցակում"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "What does 'include' mean?",
+                "correct": "ներառել",
+                "options": [
+                    "ներառել",
+                    "հանել",
+                    "տանել",
+                    "դնել"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "give",
+        "meanings": [
+            "տալ",
+            "նվիրել"
+        ],
+        "forms": [
+            "give",
+            "gives",
+            "gave",
+            "given",
+            "giving"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "Give me this",
+                        "hy": "Տուր ինձ սա"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "give up",
+                "tr": "հանձնվել",
+                "ex": "Don't give up",
+                "hy": "Մի հանձնվիր"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "Past tense of 'give' is:",
+                "correct": "gave",
+                "options": [
+                    "gave",
+                    "given",
+                    "give",
+                    "gives"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "take",
+        "meanings": [
+            "վերցնել",
+            "տանել"
+        ],
+        "forms": [
+            "take",
+            "takes",
+            "took",
+            "taken",
+            "taking"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "Take this book",
+                        "hy": "Վերցրու այս գիրքը"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "take care",
+                "tr": "հոգ տանել",
+                "ex": "Take care of yourself",
+                "hy": "Հոգ տար քեզ"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "Past tense of 'take' is:",
+                "correct": "took",
+                "options": [
+                    "took",
+                    "taken",
+                    "take",
+                    "takes"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "make",
+        "meanings": [
+            "անել",
+            "պատրաստել"
+        ],
+        "forms": [
+            "make",
+            "makes",
+            "made",
+            "making"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "I make food",
+                        "hy": "Ես սնունդ եմ պատրաստում"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "make up",
+                "tr": "հորինել / հաշտվել",
+                "ex": "They made up",
+                "hy": "Նրանք հաշտվեցին"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "Past tense of 'make' is:",
+                "correct": "made",
+                "options": [
+                    "made",
+                    "maked",
+                    "make",
+                    "makes"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "see",
+        "meanings": [
+            "տեսնել"
+        ],
+        "forms": [
+            "see",
+            "sees",
+            "saw",
+            "seen",
+            "seeing"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "I see you",
+                        "hy": "Ես քեզ տեսնում եմ"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "see off",
+                "tr": "ճանապարհել",
+                "ex": "See you off",
+                "hy": "Ճանապարհել քեզ"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "Past tense of 'see' is:",
+                "correct": "saw",
+                "options": [
+                    "saw",
+                    "seen",
+                    "see",
+                    "sees"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "know",
+        "meanings": [
+            "իմանալ",
+            "ճանաչել"
+        ],
+        "forms": [
+            "know",
+            "knows",
+            "knew",
+            "known",
+            "knowing"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "I know him",
+                        "hy": "Ես նրան ճանաչում եմ"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "know about",
+                "tr": "իմանալ մասին",
+                "ex": "I know about it",
+                "hy": "Ես դրա մասին գիտեմ"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "Past tense of 'know' is:",
+                "correct": "knew",
+                "options": [
+                    "knew",
+                    "known",
+                    "knowed",
+                    "knows"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "think",
+        "meanings": [
+            "մտածել",
+            "կարծել"
+        ],
+        "forms": [
+            "think",
+            "thinks",
+            "thought",
+            "thought",
+            "thinking"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "I think so",
+                        "hy": "Ես այդպես եմ կարծում"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "think about",
+                "tr": "մտածել մասին",
+                "ex": "Think about it",
+                "hy": "Մտածիր դրա մասին"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "Past tense of 'think' is:",
+                "correct": "thought",
+                "options": [
+                    "thought",
+                    "thinked",
+                    "think",
+                    "thinks"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "come",
+        "meanings": [
+            "գալ"
+        ],
+        "forms": [
+            "come",
+            "comes",
+            "came",
+            "come",
+            "coming"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "Come here",
+                        "hy": "Արի այստեղ"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "come back",
+                "tr": "վերադառնալ",
+                "ex": "Come back soon",
+                "hy": "Շուտ վերադարձիր"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "Past tense of 'come' is:",
+                "correct": "came",
+                "options": [
+                    "came",
+                    "comed",
+                    "come",
+                    "comes"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "want",
+        "meanings": [
+            "ցանկանալ"
+        ],
+        "forms": [
+            "want",
+            "wants",
+            "wanted",
+            "wanting"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "I want food",
+                        "hy": "Ես սնունդ եմ ուզում"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "want to",
+                "tr": "ուզել",
+                "ex": "I want to go",
+                "hy": "Ես ուզում եմ գնալ"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "What does 'want' mean?",
+                "correct": "ցանկանալ",
+                "options": [
+                    "ցանկանալ",
+                    "ուտել",
+                    "գրել",
+                    "վազել"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "use",
+        "meanings": [
+            "օգտագործել"
+        ],
+        "forms": [
+            "use",
+            "uses",
+            "used",
+            "using"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "Use your phone",
+                        "hy": "Օգտագործիր քո հեռախոսը"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "use up",
+                "tr": "ամբողջովին օգտագործել",
+                "ex": "Use up energy",
+                "hy": "Ավարտել էներգիան"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "What does 'use' mean?",
+                "correct": "օգտագործել",
+                "options": [
+                    "օգտագործել",
+                    "տալ",
+                    "վերցնել",
+                    "քնել"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "find",
+        "meanings": [
+            "գտնել"
+        ],
+        "forms": [
+            "find",
+            "finds",
+            "found",
+            "found",
+            "finding"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "Find the key",
+                        "hy": "Գտիր բանալին"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "find out",
+                "tr": "պարզել",
+                "ex": "Find out the truth",
+                "hy": "Պարզիր ճշմարտությունը"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "Past tense of 'find' is:",
+                "correct": "found",
+                "options": [
+                    "found",
+                    "finded",
+                    "find",
+                    "finds"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "a",
+        "meanings": [
+            "(անորոշ հոդ՝ a/an)"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Grammar",
+                "examples": [
+                    {
+                        "en": "a book",
+                        "hy": "գիրք (մեկ անորոշ գիրք)"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": [
+            {
+                "question": "What is 'a' used for?",
+                "correct": "անորոշ հոդ",
+                "options": [
+                    "անորոշ հոդ",
+                    "բայ",
+                    "գոյական",
+                    "ածական"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "abandon",
+        "meanings": [
+            "լքել",
+            "թողնել"
+        ],
+        "forms": [
+            "abandon",
+            "abandons",
+            "abandoned",
+            "abandoning"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "They abandon the house",
+                        "hy": "Նրանք լքում են տունը"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "abandon ship",
+                "tr": "լքել նավը",
+                "ex": "The crew abandon ship",
+                "hy": "Անձնակազմը լքում է նավը"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "What does 'abandon' mean?",
+                "correct": "լքել",
+                "options": [
+                    "լքել",
+                    "սիրել",
+                    "գնել",
+                    "հասնել"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "ability",
+        "meanings": [
+            "կարողություն",
+            "ունակություն"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Noun",
+                "examples": [
+                    {
+                        "en": "He has the ability to learn fast",
+                        "hy": "Նա ունի արագ սովորելու կարողություն"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "have ability",
+                "tr": "ունենալ կարողություն",
+                "ex": "She has ability",
+                "hy": "Նա ունի կարողություն"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "What does 'ability' mean?",
+                "correct": "կարողություն",
+                "options": [
+                    "կարողություն",
+                    "ժամանակ",
+                    "տուն",
+                    "գործ"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "able",
+        "meanings": [
+            "կարող",
+            "ունակ"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Adjective",
+                "examples": [
+                    {
+                        "en": "I am able to help",
+                        "hy": "Ես կարող եմ օգնել"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "be able to",
+                "tr": "կարողանալ",
+                "ex": "I am able to do it",
+                "hy": "Ես կարող եմ դա անել"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "What does 'able' mean?",
+                "correct": "կարող",
+                "options": [
+                    "կարող",
+                    "գեղեցիկ",
+                    "մեծ",
+                    "արագ"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "abortion",
+        "meanings": [
+            "հղիության ընդհատում"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Noun",
+                "examples": [
+                    {
+                        "en": "The law regulates abortion",
+                        "hy": "Օրենքը կարգավորում է հղիության ընդհատումը"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "about",
+        "meanings": [
+            "մասին",
+            "շուրջ",
+            "մոտ"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Preposition",
+                "examples": [
+                    {
+                        "en": "Tell me about it",
+                        "hy": "Պատմիր դրա մասին"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "talk about",
+                "tr": "խոսել մասին",
+                "ex": "We talk about school",
+                "hy": "Մենք խոսում ենք դպրոցի մասին"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "What does 'about' mean?",
+                "correct": "մասին",
+                "options": [
+                    "մասին",
+                    "վերև",
+                    "ներքև",
+                    "հեռու"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "above",
+        "meanings": [
+            "վերևում",
+            "վրա",
+            "ավելի բարձր"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Preposition",
+                "examples": [
+                    {
+                        "en": "The picture is above the bed",
+                        "hy": "Նկարը մահճակալի վերևում է"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "above all",
+                "tr": "ամենից կարևոր",
+                "ex": "Above all, be honest",
+                "hy": "Ամենից կարևորն ազնիվ եղիր"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "What does 'above' mean?",
+                "correct": "վերևում",
+                "options": [
+                    "վերևում",
+                    "ներքևում",
+                    "կողքին",
+                    "հեռու"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "abroad",
+        "meanings": [
+            "արտասահմանում"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Adverb",
+                "examples": [
+                    {
+                        "en": "She studies abroad",
+                        "hy": "Նա սովորում է արտասահմանում"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "go abroad",
+                "tr": "գնալ արտասահման",
+                "ex": "I want to go abroad",
+                "hy": "Ես ուզում եմ գնալ արտասահման"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "What does 'abroad' mean?",
+                "correct": "արտասահմանում",
+                "options": [
+                    "տանը",
+                    "արտասահմանում",
+                    "դպրոցում",
+                    "աշխատանքում"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "absence",
+        "meanings": [
+            "բացակայություն"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Noun",
+                "examples": [
+                    {
+                        "en": "His absence was noticed",
+                        "hy": "Նրա բացակայությունը նկատվեց"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "in absence",
+                "tr": "բացակայության դեպքում",
+                "ex": "In his absence we continue",
+                "hy": "Նրա բացակայության դեպքում մենք շարունակում ենք"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "What does 'absence' mean?",
+                "correct": "բացակայություն",
+                "options": [
+                    "ներկայություն",
+                    "բացակայություն",
+                    "ուժ",
+                    "գործ"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "absolute",
+        "meanings": [
+            "բացարձակ"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Adjective",
+                "examples": [
+                    {
+                        "en": "This is absolute truth",
+                        "hy": "Սա բացարձակ ճշմարտություն է"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "absolute power",
+                "tr": "բացարձակ իշխանություն",
+                "ex": "He has absolute power",
+                "hy": "Նա ունի բացարձակ իշխանություն"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "What does 'absolute' mean?",
+                "correct": "բացարձակ",
+                "options": [
+                    "մասամբ",
+                    "բացարձակ",
+                    "փոքր",
+                    "հին"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "absolutely",
+        "meanings": [
+            "բացարձակապես"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Adverb",
+                "examples": [
+                    {
+                        "en": "I absolutely agree",
+                        "hy": "Ես բացարձակապես համաձայն եմ"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "absolutely not",
+                "tr": "բացարձակապես ոչ",
+                "ex": "Absolutely not!",
+                "hy": "Բացարձակապես ոչ!"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "What does 'absolutely' mean?",
+                "correct": "բացարձակապես",
+                "options": [
+                    "մասամբ",
+                    "բացարձակապես",
+                    "երբեմն",
+                    "քիչ"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "absorb",
+        "meanings": [
+            "կլանել",
+            "ներծծել"
+        ],
+        "forms": [
+            "absorb",
+            "absorbs",
+            "absorbed",
+            "absorbing"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "The sponge absorbs water",
+                        "hy": "Սպունգը կլանում է ջուրը"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": [
+            {
+                "question": "What does 'absorb' mean?",
+                "correct": "կլանել",
+                "options": [
+                    "կլանել",
+                    "թափել",
+                    "բացել",
+                    "կոտրել"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "abuse",
+        "meanings": [
+            "չարաշահում",
+            "վիրավորել"
+        ],
+        "forms": [
+            "abuse",
+            "abuses",
+            "abused",
+            "abusing"
+        ],
+        "usage": [
+            {
+                "type": "Verb/Noun",
+                "examples": [
+                    {
+                        "en": "He abused his power",
+                        "hy": "Նա չարաշահեց իր իշխանությունը"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "academic",
+        "meanings": [
+            "ակադեմիական"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Adjective",
+                "examples": [
+                    {
+                        "en": "academic studies",
+                        "hy": "ակադեմիական ուսումնասիրություններ"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "accept",
+        "meanings": [
+            "ընդունել"
+        ],
+        "forms": [
+            "accept",
+            "accepts",
+            "accepted",
+            "accepting"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "I accept your offer",
+                        "hy": "Ես ընդունում եմ քո առաջարկը"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "accept responsibility",
+                "tr": "ընդունել պատասխանատվություն",
+                "ex": "He accepts responsibility",
+                "hy": "Նա ընդունում է պատասխանատվություն"
+            }
+        ],
+        "quiz": []
+    },
+    {
+        "word": "access",
+        "meanings": [
+            "մուտք",
+            "հասանելիություն"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Noun/Verb",
+                "examples": [
+                    {
+                        "en": "You have access to data",
+                        "hy": "Դու ունես տվյալների հասանելիություն"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "gain access",
+                "tr": "ստանալ մուտք",
+                "ex": "Gain access to system",
+                "hy": "Ստանալ մուտք համակարգին"
+            }
+        ],
+        "quiz": []
+    },
+    {
+        "word": "accident",
+        "meanings": [
+            "պատահար",
+            "վթար"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Noun",
+                "examples": [
+                    {
+                        "en": "He had an accident",
+                        "hy": "Նա վթարի ենթարկվեց"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "car accident",
+                "tr": "ավտովթար",
+                "ex": "There was a car accident",
+                "hy": "Ավտովթար էր եղել"
+            }
+        ],
+        "quiz": []
+    },
+    {
+        "word": "accompany",
+        "meanings": [
+            "ուղեկցել"
+        ],
+        "forms": [
+            "accompany",
+            "accompanies",
+            "accompanied",
+            "accompanying"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "I will accompany you",
+                        "hy": "Ես կուղեկցեմ քեզ"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "accomplish",
+        "meanings": [
+            "իրականացնել",
+            "հասնել"
+        ],
+        "forms": [
+            "accomplish",
+            "accomplishes",
+            "accomplished",
+            "accomplishing"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "He accomplished the task",
+                        "hy": "Նա կատարեց առաջադրանքը"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "according",
+        "meanings": [
+            "ըստ"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Preposition",
+                "examples": [
+                    {
+                        "en": "According to him",
+                        "hy": "Ըստ նրա"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "account",
+        "meanings": [
+            "հաշիվ"
+        ],
+        "forms": [
+            "account",
+            "accounts",
+            "accounted",
+            "accounting"
+        ],
+        "usage": [
+            {
+                "type": "Noun",
+                "examples": [
+                    {
+                        "en": "Bank account",
+                        "hy": "Բանկային հաշիվ"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "open an account",
+                "tr": "բացել հաշիվ",
+                "ex": "Open a bank account",
+                "hy": "Բացել բանկային հաշիվ"
+            }
+        ],
+        "quiz": []
+    },
+    {
+        "word": "accurate",
+        "meanings": [
+            "ճշգրիտ"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Adjective",
+                "examples": [
+                    {
+                        "en": "accurate data",
+                        "hy": "ճշգրիտ տվյալներ"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "accuse",
+        "meanings": [
+            "մեղադրել"
+        ],
+        "forms": [
+            "accuse",
+            "accuses",
+            "accused",
+            "accusing"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "They accuse him",
+                        "hy": "Նրանք մեղադրում են նրան"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "achieve",
+        "meanings": [
+            "հասնել",
+            "իրականացնել"
+        ],
+        "forms": [
+            "achieve",
+            "achieves",
+            "achieved",
+            "achieving"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "You can achieve success",
+                        "hy": "Դու կարող ես հասնել հաջողության"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "achieve goal",
+                "tr": "հասնել նպատակին",
+                "ex": "Achieve your goal",
+                "hy": "Հասնել քո նպատակին"
+            }
+        ],
+        "quiz": []
+    },
+    {
+        "word": "achievement",
+        "meanings": [
+            "ձեռքբերում"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Noun",
+                "examples": [
+                    {
+                        "en": "It is a big achievement",
+                        "hy": "Դա մեծ ձեռքբերում է"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "acid",
+        "meanings": [
+            "թթու"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Noun",
+                "examples": [
+                    {
+                        "en": "This liquid is acid",
+                        "hy": "Այս հեղուկը թթու է"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": [
+            {
+                "question": "What does 'acid' mean?",
+                "correct": "թթու",
+                "options": [
+                    "թթու",
+                    "քաղցր",
+                    "աղ",
+                    "ջուր"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "acknowledge",
+        "meanings": [
+            "ճանաչել",
+            "ընդունել"
+        ],
+        "forms": [
+            "acknowledge",
+            "acknowledges",
+            "acknowledged",
+            "acknowledging"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "He acknowledged the mistake",
+                        "hy": "Նա ընդունեց սխալը"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "acquire",
+        "meanings": [
+            "ձեռք բերել"
+        ],
+        "forms": [
+            "acquire",
+            "acquires",
+            "acquired",
+            "acquiring"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "She acquired new skills",
+                        "hy": "Նա ձեռք բերեց նոր հմտություններ"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "across",
+        "meanings": [
+            "այն կողմ",
+            "վրայով"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Preposition",
+                "examples": [
+                    {
+                        "en": "He walked across the street",
+                        "hy": "Նա անցավ փողոցը"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "across from",
+                "tr": "դիմաց",
+                "ex": "The shop is across from school",
+                "hy": "Խանութը դպրոցի դիմաց է"
+            }
+        ],
+        "quiz": []
+    },
+    {
+        "word": "act",
+        "meanings": [
+            "գործել",
+            "դեր խաղալ"
+        ],
+        "forms": [
+            "act",
+            "acts",
+            "acted",
+            "acting"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "Act now",
+                        "hy": "Գործիր հիմա"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "act like",
+                "tr": "վարվել ինչպես",
+                "ex": "He acts like a child",
+                "hy": "Նա վարվում է ինչպես երեխա"
+            }
+        ],
+        "quiz": []
+    },
+    {
+        "word": "action",
+        "meanings": [
+            "գործողություն"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Noun",
+                "examples": [
+                    {
+                        "en": "Take action",
+                        "hy": "Գործողություն ձեռնարկիր"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "in action",
+                "tr": "գործողության մեջ",
+                "ex": "See it in action",
+                "hy": "Տեսնել այն գործողության մեջ"
+            }
+        ],
+        "quiz": []
+    },
+    {
+        "word": "active",
+        "meanings": [
+            "ակտիվ"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Adjective",
+                "examples": [
+                    {
+                        "en": "He is very active",
+                        "hy": "Նա շատ ակտիվ է"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "activist",
+        "meanings": [
+            "ակտիվիստ"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Noun",
+                "examples": [
+                    {
+                        "en": "She is an activist",
+                        "hy": "Նա ակտիվիստ է"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "activity",
+        "meanings": [
+            "գործունեություն"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Noun",
+                "examples": [
+                    {
+                        "en": "Sports activity",
+                        "hy": "Սպորտային գործունեություն"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "actor",
+        "meanings": [
+            "դերասան"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Noun",
+                "examples": [
+                    {
+                        "en": "He is an actor",
+                        "hy": "Նա դերասան է"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "actress",
+        "meanings": [
+            "դերասանուհի"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Noun",
+                "examples": [
+                    {
+                        "en": "She is an actress",
+                        "hy": "Նա դերասանուհի է"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "actual",
+        "meanings": [
+            "իրական",
+            "փաստացի"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Adjective",
+                "examples": [
+                    {
+                        "en": "The actual result",
+                        "hy": "Իրական արդյունք"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "actually",
+        "meanings": [
+            "իրականում"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Adverb",
+                "examples": [
+                    {
+                        "en": "I actually agree",
+                        "hy": "Ես իրականում համաձայն եմ"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "ad",
+        "meanings": [
+            "գովազդ"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Noun",
+                "examples": [
+                    {
+                        "en": "TV ad",
+                        "hy": "Հեռուստատեսային գովազդ"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "adapt",
+        "meanings": [
+            "հարմարվել"
+        ],
+        "forms": [
+            "adapt",
+            "adapts",
+            "adapted",
+            "adapting"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "We adapt to change",
+                        "hy": "Մենք հարմարվում ենք փոփոխությանը"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "add",
+        "meanings": [
+            "ավելացնել"
+        ],
+        "forms": [
+            "add",
+            "adds",
+            "added",
+            "adding"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "Add sugar to tea",
+                        "hy": "Թեյին շաքար ավելացրու"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "add up",
+                "tr": "գումարել",
+                "ex": "Add up the numbers",
+                "hy": "Գումարիր թվերը"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "What does 'add' mean?",
+                "correct": "ավելացնել",
+                "options": [
+                    "ավելացնել",
+                    "հանել",
+                    "բացել",
+                    "կոտրել"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "addition",
+        "meanings": [
+            "ավելացում",
+            "գումարում"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Noun",
+                "examples": [
+                    {
+                        "en": "Math addition is easy",
+                        "hy": "Մաթեմատիկայում գումարումը հեշտ է"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "additional",
+        "meanings": [
+            "լրացուցիչ"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Adjective",
+                "examples": [
+                    {
+                        "en": "Additional information",
+                        "hy": "Լրացուցիչ տեղեկություն"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "address",
+        "meanings": [
+            "հասցե",
+            "դիմել"
+        ],
+        "forms": [
+            "address",
+            "addresses",
+            "addressed",
+            "addressing"
+        ],
+        "usage": [
+            {
+                "type": "Noun",
+                "examples": [
+                    {
+                        "en": "My address is here",
+                        "hy": "Իմ հասցեն այստեղ է"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "email address",
+                "tr": "էլ․ հասցե",
+                "ex": "Enter your email address",
+                "hy": "Մուտքագրիր քո էլ․ հասցեն"
+            }
+        ],
+        "quiz": []
+    },
+    {
+        "word": "adequate",
+        "meanings": [
+            "բավարար"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Adjective",
+                "examples": [
+                    {
+                        "en": "Adequate food",
+                        "hy": "Բավարար սնունդ"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "adjust",
+        "meanings": [
+            "կարգավորել",
+            "հարմարեցնել"
+        ],
+        "forms": [
+            "adjust",
+            "adjusts",
+            "adjusted",
+            "adjusting"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "Adjust the settings",
+                        "hy": "Կարգավորիր պարամետրերը"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "adjustment",
+        "meanings": [
+            "կարգավորում"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Noun",
+                "examples": [
+                    {
+                        "en": "Make an adjustment",
+                        "hy": "Կատարել կարգավորում"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "administration",
+        "meanings": [
+            "վարչություն",
+            "կառավարում"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Noun",
+                "examples": [
+                    {
+                        "en": "School administration",
+                        "hy": "Դպրոցի վարչություն"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "administrator",
+        "meanings": [
+            "կառավարիչ",
+            "ադմինիստրատոր"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Noun",
+                "examples": [
+                    {
+                        "en": "System administrator",
+                        "hy": "Համակարգի ադմինիստրատոր"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "admire",
+        "meanings": [
+            "հիանալ"
+        ],
+        "forms": [
+            "admire",
+            "admires",
+            "admired",
+            "admiring"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "I admire her work",
+                        "hy": "Ես հիանում եմ նրա աշխատանքով"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": [
+            {
+                "question": "What does 'admire' mean?",
+                "correct": "հիանալ",
+                "options": [
+                    "հիանալ",
+                    "վախենալ",
+                    "լքել",
+                    "ուտել"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "admission",
+        "meanings": [
+            "ընդունում",
+            "մուտք"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Noun",
+                "examples": [
+                    {
+                        "en": "University admission",
+                        "hy": "Համալսարան ընդունում"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "admit",
+        "meanings": [
+            "ընդունել",
+            "խոստովանել"
+        ],
+        "forms": [
+            "admit",
+            "admits",
+            "admitted",
+            "admitting"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "He admitted the truth",
+                        "hy": "Նա խոստովանեց ճշմարտությունը"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "adolescent",
+        "meanings": [
+            "դեռահաս"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Noun/Adjective",
+                "examples": [
+                    {
+                        "en": "Adolescent years",
+                        "hy": "Դեռահաս տարիքը"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "adopt",
+        "meanings": [
+            "որդեգրել",
+            "ընդունել"
+        ],
+        "forms": [
+            "adopt",
+            "adopts",
+            "adopted",
+            "adopting"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "They adopted a child",
+                        "hy": "Նրանք որդեգրեցին երեխա"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "adult",
+        "meanings": [
+            "մեծահասակ"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Noun",
+                "examples": [
+                    {
+                        "en": "He is an adult",
+                        "hy": "Նա մեծահասակ է"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "advance",
+        "meanings": [
+            "առաջընթաց",
+            "առաջ շարժվել"
+        ],
+        "forms": [
+            "advance",
+            "advances",
+            "advanced",
+            "advancing"
+        ],
+        "usage": [
+            {
+                "type": "Verb/Noun",
+                "examples": [
+                    {
+                        "en": "Technology advances fast",
+                        "hy": "Տեխնոլոգիան արագ է զարգանում"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "advanced",
+        "meanings": [
+            "առաջադեմ",
+            "զարգացած"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Adjective",
+                "examples": [
+                    {
+                        "en": "Advanced level",
+                        "hy": "Առաջադեմ մակարդակ"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "advantage",
+        "meanings": [
+            "առավելություն"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Noun",
+                "examples": [
+                    {
+                        "en": "This is an advantage",
+                        "hy": "Սա առավելություն է"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "take advantage of",
+                "tr": "օգտվել",
+                "ex": "Take advantage of the opportunity",
+                "hy": "Օգտվիր հնարավորությունից"
+            }
+        ],
+        "quiz": []
+    },
+    {
+        "word": "adventure",
+        "meanings": [
+            "արկած"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Noun",
+                "examples": [
+                    {
+                        "en": "We had an adventure",
+                        "hy": "Մենք արկած ունեցանք"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "advertising",
+        "meanings": [
+            "գովազդում"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Noun",
+                "examples": [
+                    {
+                        "en": "Advertising is expensive",
+                        "hy": "Գովազդը թանկ է"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "advice",
+        "meanings": [
+            "խորհուրդ"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Noun",
+                "examples": [
+                    {
+                        "en": "Give me advice",
+                        "hy": "Տուր ինձ խորհուրդ"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "piece of advice",
+                "tr": "խորհուրդ",
+                "ex": "A piece of advice",
+                "hy": "Խորհուրդ"
+            }
+        ],
+        "quiz": []
+    },
+    {
+        "word": "advise",
+        "meanings": [
+            "խորհուրդ տալ"
+        ],
+        "forms": [
+            "advise",
+            "advises",
+            "advised",
+            "advising"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "I advise you to study",
+                        "hy": "Ես քեզ խորհուրդ եմ տալիս սովորել"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "adviser",
+        "meanings": [
+            "խորհրդատու"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Noun",
+                "examples": [
+                    {
+                        "en": "He is my adviser",
+                        "hy": "Նա իմ խորհրդատուն է"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "advocate",
+        "meanings": [
+            "պաշտպանել",
+            "աջակից"
+        ],
+        "forms": [
+            "advocate",
+            "advocates",
+            "advocated",
+            "advocating"
+        ],
+        "usage": [
+            {
+                "type": "Verb/Noun",
+                "examples": [
+                    {
+                        "en": "She advocates for children",
+                        "hy": "Նա պաշտպանում է երեխաներին"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "affair",
+        "meanings": [
+            "գործ",
+            "հարաբերություն"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Noun",
+                "examples": [
+                    {
+                        "en": "It is a serious affair",
+                        "hy": "Դա լուրջ գործ է"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "affect",
+        "meanings": [
+            "ազդել"
+        ],
+        "forms": [
+            "affect",
+            "affects",
+            "affected",
+            "affecting"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "It affects health",
+                        "hy": "Դա ազդում է առողջության վրա"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "afford",
+        "meanings": [
+            "կարողանալ թույլ տալ"
+        ],
+        "forms": [
+            "afford",
+            "affords",
+            "afforded",
+            "affording"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "I can't afford it",
+                        "hy": "Ես չեմ կարող դա թույլ տալ"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "afraid",
+        "meanings": [
+            "վախեցած"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Adjective",
+                "examples": [
+                    {
+                        "en": "I am afraid",
+                        "hy": "Ես վախեցած եմ"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "afraid of",
+                "tr": "վախենալ",
+                "ex": "Afraid of dogs",
+                "hy": "Վախենալ շներից"
+            }
+        ],
+        "quiz": []
+    },
+    {
+        "word": "African",
+        "meanings": [
+            "աֆրիկյան"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Adjective/Noun",
+                "examples": [
+                    {
+                        "en": "African culture",
+                        "hy": "Աֆրիկյան մշակույթ"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "African-American",
+        "meanings": [
+            "աֆրոամերիկացի"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Noun/Adjective",
+                "examples": [
+                    {
+                        "en": "African-American history",
+                        "hy": "Աֆրոամերիկյան պատմություն"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "after",
+        "meanings": [
+            "հետո",
+            "ետևից"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Preposition",
+                "examples": [
+                    {
+                        "en": "After school",
+                        "hy": "Դպրոցից հետո"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "after all",
+                "tr": "ի վերջո",
+                "ex": "After all, he came",
+                "hy": "Ի վերջո նա եկավ"
+            }
+        ],
+        "quiz": []
+    },
+    {
+        "word": "afternoon",
+        "meanings": [
+            "կեսօրից հետո",
+            "ցերեկ"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Noun",
+                "examples": [
+                    {
+                        "en": "Good afternoon",
+                        "hy": "Բարի ցերեկ"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "again",
+        "meanings": [
+            "նորից",
+            "կրկին"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Adverb",
+                "examples": [
+                    {
+                        "en": "Try again",
+                        "hy": "Փորձիր նորից"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "again and again",
+                "tr": "նորից ու նորից",
+                "ex": "He tried again and again",
+                "hy": "Նա փորձեց նորից ու նորից"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "What does 'again' mean?",
+                "correct": "նորից",
+                "options": [
+                    "նորից",
+                    "երբեք",
+                    "միշտ",
+                    "շուտ"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "against",
+        "meanings": [
+            "դեմ",
+            "հակառակ"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Preposition",
+                "examples": [
+                    {
+                        "en": "Against the law",
+                        "hy": "Օրենքի դեմ"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "age",
+        "meanings": [
+            "տարիք"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Noun",
+                "examples": [
+                    {
+                        "en": "What is your age?",
+                        "hy": "Քո տարիքը ինչ է?"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": [
+            {
+                "question": "What does 'age' mean?",
+                "correct": "տարիք",
+                "options": [
+                    "տարիք",
+                    "անուն",
+                    "քաղաք",
+                    "գույն"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "agency",
+        "meanings": [
+            "գործակալություն"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Noun",
+                "examples": [
+                    {
+                        "en": "Travel agency",
+                        "hy": "Ճամփորդական գործակալություն"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "agenda",
+        "meanings": [
+            "օրակարգ"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Noun",
+                "examples": [
+                    {
+                        "en": "Meeting agenda",
+                        "hy": "Հանդիպման օրակարգ"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "agent",
+        "meanings": [
+            "գործակալ"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Noun",
+                "examples": [
+                    {
+                        "en": "He is an agent",
+                        "hy": "Նա գործակալ է"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "aggressive",
+        "meanings": [
+            "ագրեսիվ",
+            "հարձակվողական"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Adjective",
+                "examples": [
+                    {
+                        "en": "Aggressive behavior",
+                        "hy": "Ագրեսիվ վարք"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "ago",
+        "meanings": [
+            "առաջ",
+            "անցյալում"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Adverb",
+                "examples": [
+                    {
+                        "en": "Two days ago",
+                        "hy": "Երկու օր առաջ"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "agree",
+        "meanings": [
+            "համաձայնել"
+        ],
+        "forms": [
+            "agree",
+            "agrees",
+            "agreed",
+            "agreeing"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "I agree with you",
+                        "hy": "Ես համաձայն եմ քեզ հետ"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "agree on",
+                "tr": "համաձայնել",
+                "ex": "We agree on this plan",
+                "hy": "Մենք համաձայն ենք այս պլանին"
+            }
+        ],
+        "quiz": []
+    },
+    {
+        "word": "agreement",
+        "meanings": [
+            "համաձայնություն"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Noun",
+                "examples": [
+                    {
+                        "en": "We reached an agreement",
+                        "hy": "Մենք հասանք համաձայնության"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "agricultural",
+        "meanings": [
+            "գյուղատնտեսական"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Adjective",
+                "examples": [
+                    {
+                        "en": "Agricultural land",
+                        "hy": "Գյուղատնտեսական հող"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "ah",
+        "meanings": [
+            "ահ",
+            "վայ (արտահայտություն)"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Interjection",
+                "examples": [
+                    {
+                        "en": "Ah, I see!",
+                        "hy": "Ահ, հասկանում եմ!"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "ahead",
+        "meanings": [
+            "առաջ",
+            "առջևում"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Adverb",
+                "examples": [
+                    {
+                        "en": "Go ahead",
+                        "hy": "Շարունակիր"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "ahead of time",
+                "tr": "ժամանակից շուտ",
+                "ex": "Finish ahead of time",
+                "hy": "Ավարտել ժամանակից շուտ"
+            }
+        ],
+        "quiz": []
+    },
+    {
+        "word": "aid",
+        "meanings": [
+            "օգնություն"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Noun/Verb",
+                "examples": [
+                    {
+                        "en": "Give aid",
+                        "hy": "Օգնություն տալ"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "aide",
+        "meanings": [
+            "օգնական"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Noun",
+                "examples": [
+                    {
+                        "en": "He is a political aide",
+                        "hy": "Նա քաղաքական օգնական է"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "AIDS",
+        "meanings": [
+            "ՁԻԱՀ (իմունային անբավարարության համախտանիշ)"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Noun (disease)",
+                "examples": [
+                    {
+                        "en": "AIDS is a serious disease",
+                        "hy": "ՁԻԱՀ-ը լուրջ հիվանդություն է"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "aim",
+        "meanings": [
+            "նպատակ",
+            "նպատակադրել"
+        ],
+        "forms": [
+            "aim",
+            "aims",
+            "aimed",
+            "aiming"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "Aim for success",
+                        "hy": "Նպատակ դիր հաջողությանը"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "aim at",
+                "tr": "ուղղված լինել",
+                "ex": "The project aims at students",
+                "hy": "Ծրագիրը ուղղված է ուսանողներին"
+            }
+        ],
+        "quiz": []
+    },
+    {
+        "word": "air",
+        "meanings": [
+            "օդ"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Noun",
+                "examples": [
+                    {
+                        "en": "Fresh air",
+                        "hy": "Թարմ օդ"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": [
+            {
+                "question": "What does 'air' mean?",
+                "correct": "օդ",
+                "options": [
+                    "օդ",
+                    "ջուր",
+                    "կրակ",
+                    "հող"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "aircraft",
+        "meanings": [
+            "օդանավ"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Noun",
+                "examples": [
+                    {
+                        "en": "The aircraft is flying",
+                        "hy": "Օդանավը թռչում է"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "airline",
+        "meanings": [
+            "ավիաընկերություն"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Noun",
+                "examples": [
+                    {
+                        "en": "Airline ticket",
+                        "hy": "Ավիատոմս"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "airport",
+        "meanings": [
+            "օդանավակայան"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Noun",
+                "examples": [
+                    {
+                        "en": "We are at the airport",
+                        "hy": "Մենք օդանավակայանում ենք"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "album",
+        "meanings": [
+            "ալբոմ"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Noun",
+                "examples": [
+                    {
+                        "en": "Music album",
+                        "hy": "Երաժշտական ալբոմ"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "alcohol",
+        "meanings": [
+            "ալկոհոլ"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Noun",
+                "examples": [
+                    {
+                        "en": "Alcohol is harmful",
+                        "hy": "Ալկոհոլը վնասակար է"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "alive",
+        "meanings": [
+            "կենդանի",
+            "ողջ"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Adjective",
+                "examples": [
+                    {
+                        "en": "He is alive",
+                        "hy": "Նա կենդանի է"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": [
+            {
+                "question": "What does 'alive' mean?",
+                "correct": "կենդանի",
+                "options": [
+                    "կենդանի",
+                    "մեռած",
+                    "ուժեղ",
+                    "արագ"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "all",
+        "meanings": [
+            "բոլոր",
+            "ամբողջ"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Pronoun/Adjective",
+                "examples": [
+                    {
+                        "en": "All students",
+                        "hy": "Բոլոր ուսանողները"
+                    }
+                ]
+            }
+        ],
+        "phrases": [
+            {
+                "p": "all of",
+                "tr": "բոլորը",
+                "ex": "All of them",
+                "hy": "Բոլորը"
+            }
+        ],
+        "quiz": []
+    },
+    {
+        "word": "alliance",
+        "meanings": [
+            "դաշինք"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Noun",
+                "examples": [
+                    {
+                        "en": "Political alliance",
+                        "hy": "Քաղաքական դաշինք"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "allow",
+        "meanings": [
+            "թույլ տալ"
+        ],
+        "forms": [
+            "allow",
+            "allows",
+            "allowed",
+            "allowing"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "They allow entry",
+                        "hy": "Նրանք թույլ են տալիս մուտք"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "ally",
+        "meanings": [
+            "դաշնակից"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Noun",
+                "examples": [
+                    {
+                        "en": "He is an ally",
+                        "hy": "Նա դաշնակից է"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "almost",
+        "meanings": [
+            "գրեթե"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Adverb",
+                "examples": [
+                    {
+                        "en": "Almost done",
+                        "hy": "Գրեթե ավարտված է"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "alone",
+        "meanings": [
+            "մենակ"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Adjective/Adverb",
+                "examples": [
+                    {
+                        "en": "I am alone",
+                        "hy": "Ես մենակ եմ"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "along",
+        "meanings": [
+            "միասին",
+            "երկայնքով"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Preposition/Adverb",
+                "examples": [
+                    {
+                        "en": "Walk along the river",
+                        "hy": "Քայլել գետի երկայնքով"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "already",
+        "meanings": [
+            "արդեն"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Adverb",
+                "examples": [
+                    {
+                        "en": "I already did it",
+                        "hy": "Ես արդեն արել եմ դա"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "also",
+        "meanings": [
+            "նաև"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Adverb",
+                "examples": [
+                    {
+                        "en": "I also agree",
+                        "hy": "Ես նույնպես համաձայն եմ"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "alter",
+        "meanings": [
+            "փոխել",
+            "փոփոխել"
+        ],
+        "forms": [
+            "alter",
+            "alters",
+            "altered",
+            "altering"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "Alter the plan",
+                        "hy": "Փոխել պլանը"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "alternative",
+        "meanings": [
+            "այլընտրանք"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Noun/Adjective",
+                "examples": [
+                    {
+                        "en": "We need an alternative",
+                        "hy": "Մեզ այլընտրանք է պետք"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "although",
+        "meanings": [
+            "չնայած"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Conjunction",
+                "examples": [
+                    {
+                        "en": "Although it is hard, I try",
+                        "hy": "Չնայած դժվար է, ես փորձում եմ"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "always",
+        "meanings": [
+            "միշտ"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Adverb",
+                "examples": [
+                    {
+                        "en": "I always study",
+                        "hy": "Ես միշտ սովորում եմ"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": [
+            {
+                "question": "What does 'always' mean?",
+                "correct": "միշտ",
+                "options": [
+                    "միշտ",
+                    "երբեմն",
+                    "երբեք",
+                    "հազվադեպ"
+                ]
+            }
+        ]
+    },
+    {
+        "word": "AM",
+        "meanings": [
+            "առավոտյան (ժամանակ՝ 12-ժամյա համակարգ)"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Time indicator",
+                "examples": [
+                    {
+                        "en": "7 AM",
+                        "hy": "առավոտյան 7"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "amazing",
+        "meanings": [
+            "հրաշալի",
+            "զարմանալի"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Adjective",
+                "examples": [
+                    {
+                        "en": "This is amazing",
+                        "hy": "Սա զարմանալի է"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "American",
+        "meanings": [
+            "ամերիկացի",
+            "ամերիկյան"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Noun/Adjective",
+                "examples": [
+                    {
+                        "en": "American culture",
+                        "hy": "Ամերիկյան մշակույթ"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "among",
+        "meanings": [
+            "միջև",
+            "շրջանում"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Preposition",
+                "examples": [
+                    {
+                        "en": "Among friends",
+                        "hy": "Ընկերների շրջանում"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "amount",
+        "meanings": [
+            "քանակ"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Noun",
+                "examples": [
+                    {
+                        "en": "A large amount of money",
+                        "hy": "Մեծ քանակությամբ փող"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "analysis",
+        "meanings": [
+            "վերլուծություն"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Noun",
+                "examples": [
+                    {
+                        "en": "Data analysis",
+                        "hy": "Տվյալների վերլուծություն"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "analyst",
+        "meanings": [
+            "վերլուծաբան"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Noun",
+                "examples": [
+                    {
+                        "en": "He is an analyst",
+                        "hy": "Նա վերլուծաբան է"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "analyze",
+        "meanings": [
+            "վերլուծել"
+        ],
+        "forms": [
+            "analyze",
+            "analyzes",
+            "analyzed",
+            "analyzing"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "Analyze the data",
+                        "hy": "Վերլուծել տվյալները"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "ancient",
+        "meanings": [
+            "հին",
+            "հնագույն"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Adjective",
+                "examples": [
+                    {
+                        "en": "Ancient history",
+                        "hy": "Հնագույն պատմություն"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "and",
+        "meanings": [
+            "և"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "anger",
+        "meanings": [
+            "զայրույթ"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Noun",
+                "examples": [
+                    {
+                        "en": "He feels anger",
+                        "hy": "Նա զգում է զայրույթ"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "angle",
+        "meanings": [
+            "անկյուն"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "angry",
+        "meanings": [
+            "զայրացած"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Adjective",
+                "examples": [
+                    {
+                        "en": "She is angry",
+                        "hy": "Նա զայրացած է"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "animal",
+        "meanings": [
+            "կենդանի"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Noun",
+                "examples": [
+                    {
+                        "en": "The animal is fast",
+                        "hy": "Կենդանին արագ է"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "anniversary",
+        "meanings": [
+            "տարելից"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "announce",
+        "meanings": [
+            "հայտարարել"
+        ],
+        "forms": [
+            "announce",
+            "announces",
+            "announced",
+            "announcing"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "They announce the result",
+                        "hy": "Նրանք հայտարարում են արդյունքը"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "annual",
+        "meanings": [
+            "տարեկան"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "another",
+        "meanings": [
+            "մեկ ուրիշ"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Pronoun/Adjective",
+                "examples": [
+                    {
+                        "en": "Give me another one",
+                        "hy": "Տուր ինձ մեկ ուրիշը"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "answer",
+        "meanings": [
+            "պատասխանել",
+            "պատասխան"
+        ],
+        "forms": [
+            "answer",
+            "answers",
+            "answered",
+            "answering"
+        ],
+        "usage": [
+            {
+                "type": "Verb/Noun",
+                "examples": [
+                    {
+                        "en": "Give me an answer",
+                        "hy": "Տուր ինձ պատասխան"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "anticipate",
+        "meanings": [
+            "սպասել",
+            "կանխատեսել"
+        ],
+        "forms": [
+            "anticipate",
+            "anticipates",
+            "anticipated",
+            "anticipating"
+        ],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "anxiety",
+        "meanings": [
+            "անհանգստություն"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Noun",
+                "examples": [
+                    {
+                        "en": "He has anxiety",
+                        "hy": "Նա ունի անհանգստություն"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "any",
+        "meanings": [
+            "որևէ",
+            "որքան էլ"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "anybody",
+        "meanings": [
+            "որևէ մեկը"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "anymore",
+        "meanings": [
+            "այլևս"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "anyone",
+        "meanings": [
+            "որևէ մեկը"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "anything",
+        "meanings": [
+            "որևէ բան"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "anyway",
+        "meanings": [
+            "ամեն դեպքում"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "anywhere",
+        "meanings": [
+            "որևէ տեղ"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "apart",
+        "meanings": [
+            "առանձին",
+            "կողքից"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "apartment",
+        "meanings": [
+            "բնակարան"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Noun",
+                "examples": [
+                    {
+                        "en": "I live in an apartment",
+                        "hy": "Ես ապրում եմ բնակարանում"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "apparent",
+        "meanings": [
+            "ակնհայտ"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "apparently",
+        "meanings": [
+            "ակնհայտորեն"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "appeal",
+        "meanings": [
+            "դիմում",
+            "հետաքրքրել"
+        ],
+        "forms": [
+            "appeal",
+            "appeals",
+            "appealed",
+            "appealing"
+        ],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "appear",
+        "meanings": [
+            "երևալ",
+            "հայտնվել"
+        ],
+        "forms": [
+            "appear",
+            "appears",
+            "appeared",
+            "appearing"
+        ],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "appearance",
+        "meanings": [
+            "տեսք",
+            "արտաքին"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "apple",
+        "meanings": [
+            "խնձոր"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Noun",
+                "examples": [
+                    {
+                        "en": "An apple a day",
+                        "hy": "Օրական մեկ խնձոր"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "application",
+        "meanings": [
+            "դիմում",
+            "հավելված"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "apply",
+        "meanings": [
+            "դիմել",
+            "կիրառել"
+        ],
+        "forms": [
+            "apply",
+            "applies",
+            "applied",
+            "applying"
+        ],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "appoint",
+        "meanings": [
+            "նշանակել"
+        ],
+        "forms": [
+            "appoint",
+            "appoints",
+            "appointed",
+            "appointing"
+        ],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "appointment",
+        "meanings": [
+            "նշանակում",
+            "հանդիպում"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "appreciate",
+        "meanings": [
+            "գնահատել",
+            "շնորհակալ լինել"
+        ],
+        "forms": [
+            "appreciate",
+            "appreciates",
+            "appreciated",
+            "appreciating"
+        ],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "approach",
+        "meanings": [
+            "մոտենալ",
+            "մոտեցում"
+        ],
+        "forms": [
+            "approach",
+            "approaches",
+            "approached",
+            "approaching"
+        ],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "appropriate",
+        "meanings": [
+            "հարմար",
+            "տեղին"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "approval",
+        "meanings": [
+            "հաստատում"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "approve",
+        "meanings": [
+            "հաստատել"
+        ],
+        "forms": [
+            "approve",
+            "approves",
+            "approved",
+            "approving"
+        ],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "approximately",
+        "meanings": [
+            "մոտավորապես"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "Arab",
+        "meanings": [
+            "արաբ"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "architect",
+        "meanings": [
+            "ճարտարապետ"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "area",
+        "meanings": [
+            "տարածք"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "argue",
+        "meanings": [
+            "վիճել"
+        ],
+        "forms": [
+            "argue",
+            "argues",
+            "argued",
+            "arguing"
+        ],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "argument",
+        "meanings": [
+            "վեճ",
+            "փաստարկ"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "arise",
+        "meanings": [
+            "ծագել",
+            "առաջանալ"
+        ],
+        "forms": [
+            "arise",
+            "arises",
+            "arose",
+            "arisen"
+        ],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "arm",
+        "meanings": [
+            "թև",
+            "զենք"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "armed",
+        "meanings": [
+            "զինված"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "army",
+        "meanings": [
+            "բանակ"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "around",
+        "meanings": [
+            "շուրջը",
+            "մոտ"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "arrange",
+        "meanings": [
+            "կազմակերպել",
+            "դասավորել"
+        ],
+        "forms": [
+            "arrange",
+            "arranges",
+            "arranged",
+            "arranging"
+        ],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "arrangement",
+        "meanings": [
+            "կազմակերպում",
+            "դասավորություն"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "arrest",
+        "meanings": [
+            "ձերբակալել"
+        ],
+        "forms": [
+            "arrest",
+            "arrests",
+            "arrested",
+            "arresting"
+        ],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "arrival",
+        "meanings": [
+            "ժամանում"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Noun",
+                "examples": [
+                    {
+                        "en": "Arrival time is 5 PM",
+                        "hy": "Ժամանումը ժամը 5-ին է"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "arrive",
+        "meanings": [
+            "ժամանել"
+        ],
+        "forms": [
+            "arrive",
+            "arrives",
+            "arrived",
+            "arriving"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "I arrive home",
+                        "hy": "Ես հասնում եմ տուն"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "art",
+        "meanings": [
+            "արվեստ"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "article",
+        "meanings": [
+            "հոդված"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "artist",
+        "meanings": [
+            "արվեստագետ"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "artistic",
+        "meanings": [
+            "արվեստային"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "as",
+        "meanings": [
+            "որպես",
+            "ինչպես"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Conjunction",
+                "examples": [
+                    {
+                        "en": "As a teacher",
+                        "hy": "Որպես ուսուցիչ"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "Asian",
+        "meanings": [
+            "ասիական"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "aside",
+        "meanings": [
+            "կողմ",
+            "մի կողմ"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "ask",
+        "meanings": [
+            "հարցնել",
+            "խնդրել"
+        ],
+        "forms": [
+            "ask",
+            "asks",
+            "asked",
+            "asking"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "Ask a question",
+                        "hy": "Հարց տուր"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "asleep",
+        "meanings": [
+            "քնած"
+        ],
+        "forms": [],
+        "usage": [
+            {
+                "type": "Adjective",
+                "examples": [
+                    {
+                        "en": "He is asleep",
+                        "hy": "Նա քնած է"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "aspect",
+        "meanings": [
+            "տեսանկյուն",
+            "ասպեկտ"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "assault",
+        "meanings": [
+            "հարձակում"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "assert",
+        "meanings": [
+            "պնդել"
+        ],
+        "forms": [
+            "assert",
+            "asserts",
+            "asserted",
+            "asserting"
+        ],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "assess",
+        "meanings": [
+            "գնահատել"
+        ],
+        "forms": [
+            "assess",
+            "assesses",
+            "assessed",
+            "assessing"
+        ],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "assessment",
+        "meanings": [
+            "գնահատում"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "asset",
+        "meanings": [
+            "ակտիվ",
+            "արժեք"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "assign",
+        "meanings": [
+            "նշանակել",
+            "տալ առաջադրանք"
+        ],
+        "forms": [
+            "assign",
+            "assigns",
+            "assigned",
+            "assigning"
+        ],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "assignment",
+        "meanings": [
+            "առաջադրանք"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "assist",
+        "meanings": [
+            "օգնել"
+        ],
+        "forms": [
+            "assist",
+            "assists",
+            "assisted",
+            "assisting"
+        ],
+        "usage": [
+            {
+                "type": "Verb",
+                "examples": [
+                    {
+                        "en": "Assist the teacher",
+                        "hy": "Օգնիր ուսուցչին"
+                    }
+                ]
+            }
+        ],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "assistance",
+        "meanings": [
+            "օգնություն"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "assistant",
+        "meanings": [
+            "օգնական"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "associate",
+        "meanings": [
+            "կապել",
+            "գործընկեր"
+        ],
+        "forms": [
+            "associate",
+            "associates",
+            "associated",
+            "associating"
+        ],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "association",
+        "meanings": [
+            "ասոցիացիա",
+            "միավորում"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "assume",
+        "meanings": [
+            "ենթադրել"
+        ],
+        "forms": [
+            "assume",
+            "assumes",
+            "assumed",
+            "assuming"
+        ],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "assumption",
+        "meanings": [
+            "ենթադրություն"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "assure",
+        "meanings": [
+            "հավաստիացնել"
+        ],
+        "forms": [
+            "assure",
+            "assures",
+            "assured",
+            "assuring"
+        ],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "at",
+        "meanings": [
+            "-ում",
+            "-ին"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "athlete",
+        "meanings": [
+            "մարզիկ"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "athletic",
+        "meanings": [
+            "մարզական"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "atmosphere",
+        "meanings": [
+            "մթնոլորտ"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "attach",
+        "meanings": [
+            "կցել"
+        ],
+        "forms": [
+            "attach",
+            "attaches",
+            "attached",
+            "attaching"
+        ],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "attack",
+        "meanings": [
+            "հարձակվել"
+        ],
+        "forms": [
+            "attack",
+            "attacks",
+            "attacked",
+            "attacking"
+        ],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "attempt",
+        "meanings": [
+            "փորձել",
+            "փորձ"
+        ],
+        "forms": [
+            "attempt",
+            "attempts",
+            "attempted",
+            "attempting"
+        ],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "attend",
+        "meanings": [
+            "մասնակցել",
+            "հաճախել"
+        ],
+        "forms": [
+            "attend",
+            "attends",
+            "attended",
+            "attending"
+        ],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "attention",
+        "meanings": [
+            "ուշադրություն"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "attitude",
+        "meanings": [
+            "վերաբերմունք"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "attorney",
+        "meanings": [
+            "փաստաբան"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "attract",
+        "meanings": [
+            "գրավել"
+        ],
+        "forms": [
+            "attract",
+            "attracts",
+            "attracted",
+            "attracting"
+        ],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "attractive",
+        "meanings": [
+            "գրավիչ"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "attribute",
+        "meanings": [
+            "հատկանիշ",
+            "վերագրել"
+        ],
+        "forms": [
+            "attribute",
+            "attributes",
+            "attributed",
+            "attributing"
+        ],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "audience",
+        "meanings": [
+            "հանդիսատես"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "author",
+        "meanings": [
+            "հեղինակ"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "authority",
+        "meanings": [
+            "իշխանություն"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "auto",
+        "meanings": [
+            "ավտո",
+            "մեքենա"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "available",
+        "meanings": [
+            "հասանելի"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "average",
+        "meanings": [
+            "միջին"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "avoid",
+        "meanings": [
+            "խուսափել"
+        ],
+        "forms": [
+            "avoid",
+            "avoids",
+            "avoided",
+            "avoiding"
+        ],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "award",
+        "meanings": [
+            "պարգև"
+        ],
+        "forms": [
+            "award",
+            "awards",
+            "awarded",
+            "awarding"
+        ],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "aware",
+        "meanings": [
+            "գիտակից",
+            "տեղյակ"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "awareness",
+        "meanings": [
+            "իրազեկություն"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "away",
+        "meanings": [
+            "հեռու"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "awful",
+        "meanings": [
+            "սարսափելի",
+            "վատ"
+        ],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "baby",
+        "meanings": ["երեխա", "փոքրիկ երեխա", "նորածին"],
+        "forms": ["baby", "babies"],
+        "usage": [
+            {"en": "He is a baby", "hy": "Նա երեխա է"},
+            {"en": "The baby is sleeping", "hy": "Երեխան քնած է"}
+        ],
+        "phrases": [
+            {"p": "baby food", "tr": "մանկական սնունդ"},
+            {"p": "baby boy", "tr": "տղա երեխա"}
+        ],
+        "quiz": [
+            {"question": "What do you call a very young child?", "correct": "baby"}
+        ]
+    },
+    {
+        "word": "back",
+        "meanings": ["մեջք", "հետ", "ետ"],
+        "forms": ["back", "backs"],
+        "usage": [
+            {"en": "I am going back home", "hy": "Ես գնում եմ տուն"},
+            {"en": "My back hurts", "hy": "Իմ մեջքը ցավում է"}
+        ],
+        "phrases": [
+            {"p": "come back", "tr": "վերադառնալ"},
+            {"p": "back door", "tr": "հետի դուռ"}
+        ],
+        "quiz": [
+            {"question": "What is the opposite of “front”?", "correct": "back"}
+        ]
+    },
+    {
+        "word": "background",
+        "meanings": ["ֆոն", "ծագում"],
+        "forms": ["background", "backgrounds"],
+        "usage": [
+            {"en": "The background is blue", "hy": "Ֆոնը կապույտ է"},
+            {"en": "He has a strong educational background", "hy": "Նա ունի լավ կրթական ծագում"}
+        ],
+        "phrases": [
+            {"p": "background music", "tr": "ֆոնային երաժշտություն"}
+        ],
+        "quiz": [
+            {"question": "What do we call information about someone’s history?", "correct": "background"}
+        ]
+    },
+    {
+        "word": "bad",
+        "meanings": ["վատ"],
+        "forms": ["bad", "worse", "worst"],
+        "usage": [
+            {"en": "This is a bad idea", "hy": "Սա վատ գաղափար է"}
+        ],
+        "phrases": [
+            {"p": "bad weather", "tr": "վատ եղանակ"}
+        ],
+        "quiz": [
+            {"question": "Opposite of “good”?", "correct": "bad"}
+        ]
+    },
+    {
+        "word": "badly",
+        "meanings": ["վատ կերպով", "վատ"],
+        "forms": ["badly"],
+        "usage": [
+            {"en": "He plays badly", "hy": "Նա վատ է խաղում"}
+        ],
+        "phrases": [
+            {"p": "feel badly", "tr": "վատ զգալ"}
+        ],
+        "quiz": [
+            {"question": "How do you say “not well” in adverb form?", "correct": "badly"}
+        ]
+    },
+    {
+        "word": "bag",
+        "meanings": ["պայուսակ", "տոպրակ"],
+        "forms": ["bag", "bags"],
+        "usage": [
+            {"en": "I have a bag", "hy": "Ես պայուսակ ունեմ"}
+        ],
+        "phrases": [
+            {"p": "shopping bag", "tr": "գնումների տոպրակ"}
+        ],
+        "quiz": [
+            {"question": "What do you carry things in?", "correct": "bag"}
+        ]
+    },
+    {
+        "word": "bake",
+        "meanings": ["թխել"],
+        "forms": ["bake", "baked", "baked", "baking"],
+        "usage": [
+            {"en": "She bakes bread", "hy": "Նա թխում է հաց"}
+        ],
+        "phrases": [
+            {"p": "bake a cake", "tr": "թխել տորթ"}
+        ],
+        "quiz": [
+            {"question": "What do you do with cake in oven?", "correct": "bake"}
+        ]
+    },
+    {
+        "word": "balance",
+        "meanings": ["հավասարակշռություն"],
+        "forms": ["balance", "balances", "balanced", "balancing"],
+        "usage": [
+            {"en": "Keep your balance", "hy": "Պահպանիր հավասարակշռություն"}
+        ],
+        "phrases": [
+            {"p": "life balance", "tr": "կյանքի հավասարակշռություն"}
+        ],
+        "quiz": [
+            {"question": "What keeps you steady?", "correct": "balance"}
+        ]
+    },
+    {
+        "word": "ball",
+        "meanings": ["գնդակ"],
+        "forms": ["ball", "balls"],
+        "usage": [
+            {"en": "He throws the ball", "hy": "Նա նետում է գնդակը"}
+        ],
+        "phrases": [
+            {"p": "football ball", "tr": "ֆուտբոլի գնդակ"}
+        ],
+        "quiz": [
+            {"question": "What do you kick in football?", "correct": "ball"}
+        ]
+    },
+    {
+        "word": "ban",
+        "meanings": ["արգելել"],
+        "forms": ["ban", "banned", "banning"],
+        "usage": [
+            {"en": "Smoking is banned", "hy": "Ծխելը արգելված է"}
+        ],
+        "phrases": [
+            {"p": "travel ban", "tr": "ճանապարհորդության արգելք"}
+        ],
+        "quiz": [
+            {"question": "What means “not allowed”?", "correct": "ban"}
+        ]
+    },
+    {
+        "word": "band",
+        "meanings": ["խումբ", "երաժշտական խումբ"],
+        "forms": ["band", "bands"],
+        "usage": [
+            {"en": "The band is playing", "hy": "Խումբը նվագում է"}
+        ],
+        "phrases": [
+            {"p": "rock band", "tr": "ռոք խումբ"}
+        ],
+        "quiz": [
+            {"question": "What do you call musicians playing together?", "correct": "band"}
+        ]
+    },
+    {
+        "word": "bank",
+        "meanings": ["բանկ"],
+        "forms": ["bank", "banks"],
+        "usage": [
+            {"en": "I go to the bank", "hy": "Ես գնում եմ բանկ"}
+        ],
+        "phrases": [
+            {"p": "bank account", "tr": "բանկային հաշիվ"}
+        ],
+        "quiz": [
+            {"question": "Where do you keep money?", "correct": "bank"}
+        ]
+    },
+    {
+        "word": "bar",
+        "meanings": ["բար", "ձող"],
+        "forms": ["bar", "bars"],
+        "usage": [
+            {"en": "He went to a bar", "hy": "Նա գնաց բար"}
+        ],
+        "phrases": [
+            {"p": "chocolate bar", "tr": "շոկոլադի սալիկ"}
+        ],
+        "quiz": [
+            {"question": "Where do people drink in public?", "correct": "bar"}
+        ]
+    },
+    {
+        "word": "barely",
+        "meanings": ["հազիվ", "գրեթե ոչ"],
+        "forms": ["barely"],
+        "usage": [
+            {"en": "I barely saw him", "hy": "Ես հազիվ տեսա նրան"}
+        ],
+        "phrases": [
+            {"p": "barely enough", "tr": "հազիվ բավարար"}
+        ],
+        "quiz": [
+            {"question": "What means “almost not”?", "correct": "barely"}
+        ]
+    },
+    {
+        "word": "barrel",
+        "meanings": ["տակառ"],
+        "forms": ["barrel", "barrels"],
+        "usage": [
+            {"en": "Water is in a barrel", "hy": "Ջուրը տակառում է"}
+        ],
+        "phrases": [
+            {"p": "oil barrel", "tr": "նավթի տակառ"}
+        ],
+        "quiz": [
+            {"question": "What holds liquids in storage?", "correct": "barrel"}
+        ]
+    },
+    {
+        "word": "barrier",
+        "meanings": ["արգելք"],
+        "forms": ["barrier", "barriers"],
+        "usage": [
+            {"en": "Language is a barrier", "hy": "Լեզուն արգելք է"}
+        ],
+        "phrases": [
+            {"p": "trade barrier", "tr": "առևտրային արգելք"}
+        ],
+        "quiz": [
+            {"question": "What stops progress?", "correct": "barrier"}
+        ]
+    },
+    {
+        "word": "base",
+        "meanings": ["հիմք"],
+        "forms": ["base", "bases"],
+        "usage": [
+            {"en": "This is the base of the system", "hy": "Սա համակարգի հիմքն է"}
+        ],
+        "phrases": [
+            {"p": "military base", "tr": "ռազմական բազա"}
+        ],
+        "quiz": [
+            {"question": "What is the foundation called?", "correct": "base"}
+        ]
+    },
+    {
+        "word": "baseball",
+        "meanings": ["բեյսբոլ (սպորտ)"],
+        "forms": ["baseball"],
+        "usage": [
+            {"en": "He plays baseball", "hy": "Նա խաղում է բեյսբոլ"}
+        ],
+        "phrases": [
+            {"p": "baseball game", "tr": "բեյսբոլի խաղ"}
+        ],
+        "quiz": [
+            {"question": "What sport uses a bat and ball?", "correct": "baseball"}
+        ]
+    },
+    {
+        "word": "basic",
+        "meanings": ["հիմնական", "պարզ"],
+        "forms": ["basic"],
+        "usage": [
+            {"en": "This is basic knowledge", "hy": "Սա հիմնական գիտելիք է"}
+        ],
+        "phrases": [
+            {"p": "basic skills", "tr": "հիմնական հմտություններ"}
+        ],
+        "quiz": [
+            {"question": "What means “simple or fundamental”?", "correct": "basic"}
+        ]
+    },
+    {
+        "word": "basically",
+        "meanings": ["հիմնականում", "ըստ էության"],
+        "forms": ["basically"],
+        "usage": [
+            {"en": "Basically, he is right", "hy": "Ըստ էության նա ճիշտ է"}
+        ],
+        "phrases": [
+            {"p": "basically speaking", "tr": "հիմնականում ասած"}
+        ],
+        "quiz": [
+            {"question": "What means “in simple terms”?", "correct": "basically"}
+        ]
+    },
+    {
+        "word": "basis",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "basket",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "basketball",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "bathroom",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "battery",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "battle",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "be",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "beach",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "bean",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "bear",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "beat",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "beautiful",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "beauty",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "because",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "become",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "bed",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "bedroom",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "beer",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "before",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "begin",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "beginning",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "behavior",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "behind",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "being",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "belief",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "believe",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "bell",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "belong",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "below",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "belt",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "bench",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "bend",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "beneath",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "benefit",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "beside",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "besides",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "best",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "bet",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "better",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "between",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "beyond",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "Bible",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "big",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "bike",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "bill",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "billion",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "bind",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "biological",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "bird",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "birth",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "birthday",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "bit",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "bite",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "black",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "blade",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "blame",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "blanket",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "blind",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "block",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "blood",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "blow",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "blue",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "board",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "boat",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "body",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "bomb",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "bombing",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "bond",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "bone",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "book",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "boom",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "boot",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "border",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "born",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "borrow",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "boss",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "both",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "bother",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "bottle",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "bottom",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "boundary",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "bowl",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "box",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "boy",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "boyfriend",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "brain",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "branch",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "brand",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "bread",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "break",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "breakfast",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "breast",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "breath",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "breathe",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "brick",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "bridge",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "brief",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "briefly",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "bright",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "brilliant",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "bring",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "British",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "broad",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "broken",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "brother",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "brown",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "brush",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "buck",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "budget",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "build",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "building",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "bullet",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "bunch",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "burden",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "burn",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "bury",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "bus",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "business",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "busy",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "but",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "butter",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "button",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "buy",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "buyer",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    },
+    {
+        "word": "by",
+        "meanings": [],
+        "forms": [],
+        "usage": [],
+        "phrases": [],
+        "quiz": []
+    }
+]
