@@ -143,7 +143,7 @@ export default function Toolbar({
             <button
               className={`letter-btn ${allActive ? 'active' : ''}`}
               onClick={() => onLetterFilter('ALL')}
-            >All</button>
+            >A-Z</button>
             {alphabet.map(ch => (
               <button
                 key={ch}

@@ -49,7 +49,7 @@ export default function App() {
   const [sortMode, setSortMode] = useState('default')
   const [searchQuery, setSearchQuery] = useState('')
   const [currentPage, setCurrentPage] = useState(1)
-  const [activeLetters, setActiveLetters] = useState(new Set())
+  const [activeLetters, setActiveLetters] = useState(new Set(['A']))
   const [studyMode, setStudyMode] = useState(false)
   const [dictationMode, setDictationMode] = useState(false)
   const [shuffledList, setShuffledList] = useState([])
@@ -407,11 +407,9 @@ export default function App() {
         activeLetters={activeLetters}
         onLetterFilter={(l) => {
           setActiveLetters(prev => {
-            const next = new Set(prev)
-            if (l === 'ALL') { next.clear() }
-            else if (next.has(l)) next.delete(l)
-            else next.add(l)
-            return next
+            if (l === 'ALL') return new Set()
+            if (prev.size === 1 && prev.has(l)) return new Set()
+            return new Set([l])
           })
           setCurrentPage(1)
         }}
@@ -422,7 +420,7 @@ export default function App() {
       <StatsBar streak={streakData.count} correct={sessionData.correct} wrong={sessionData.wrong} />
 
       <main className="main">
-        {wotdWord && !searchQuery && filter === 'all' && currentPage === 1 && (
+        {wotdWord && !searchQuery && filter === 'all' && currentPage === 1 && (activeLetters.size === 0 || activeLetters.has(wotdWord.word[0]?.toUpperCase())) && (
           <div className="wotd-banner" onClick={() => openWordFocus(filtered.findIndex(w => w.word === wotdWord.word))}>
             <div className="wotd-icon">✨</div>
             <div className="wotd-content">
