@@ -49,7 +49,7 @@ export default function App() {
   const [sortMode, setSortMode] = useState('default')
   const [searchQuery, setSearchQuery] = useState('')
   const [currentPage, setCurrentPage] = useState(1)
-  const [activeLetters, setActiveLetters] = useState(new Set(['A']))
+  const [activeLetters, setActiveLetters] = useState(new Set())
   const [studyMode, setStudyMode] = useState(false)
   const [dictationMode, setDictationMode] = useState(false)
   const [shuffledList, setShuffledList] = useState([])
@@ -76,15 +76,21 @@ export default function App() {
 
   useEffect(() => {
     fetch('/words.json').then(r => r.json()).then(data => {
-      setWordsData(data)
-      setShuffledList(shuffle(data))
+      const seen = new Set()
+      const unique = data.filter(w => {
+        if (!w.word || seen.has(w.word)) return false
+        seen.add(w.word)
+        return true
+      })
+      setWordsData(unique)
+      setShuffledList(shuffle(unique))
       // Word of the day
       const key = new Date().toISOString().slice(0, 10)
       const saved = ls('lexicon_wotd', null)
       if (saved && saved.key === key) {
         setWotd(saved.word)
       } else {
-        const w = data[Math.floor(Math.abs(hashCode(key)) % data.length)]
+        const w = unique[Math.floor(Math.abs(hashCode(key)) % unique.length)]
         if (w) {
           lsSet('lexicon_wotd', { key, word: w.word })
           setWotd(w.word)
@@ -277,7 +283,6 @@ export default function App() {
   function handleSortChange(val) {
     setSortMode(val)
     if (val === 'shuffle') setShuffledList(shuffle(wordsData))
-    if (val === 'az') setActiveLetters(new Set(['A']))
     setCurrentPage(1)
   }
 
@@ -387,7 +392,7 @@ export default function App() {
         searchQuery={searchQuery}
         onSearch={(q) => { setSearchQuery(q); setCurrentPage(1) }}
         filter={filter}
-        onFilter={(f) => { setFilter(f); setCurrentPage(1) }}
+        onFilter={(f) => { setFilter(f); setCurrentPage(1); setActiveLetters(new Set()) }}
         sortMode={sortMode}
         onSort={handleSortChange}
         studyMode={studyMode}
