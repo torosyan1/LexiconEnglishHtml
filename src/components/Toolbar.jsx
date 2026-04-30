@@ -1,4 +1,4 @@
-import { useRef, useState, useEffect } from 'react'
+import { useRef, useEffect } from 'react'
 
 export default function Toolbar({
   searchQuery, onSearch,
@@ -11,30 +11,17 @@ export default function Toolbar({
   learnedMap, starredMap,
 }) {
   const searchRef = useRef(null)
-  const [hidden, setHidden] = useState(false)
-  const lastScrollY = useRef(0)
-  const ticking = useRef(false)
 
   useEffect(() => {
-    function onScroll() {
-      if (ticking.current) return
-      ticking.current = true
-      requestAnimationFrame(() => {
-        const y = window.scrollY
-        if (window.innerWidth <= 640) {
-          if (y > lastScrollY.current && y > 80) {
-            setHidden(true)
-          } else if (y < lastScrollY.current) {
-            setHidden(false)
-          }
-          if (y < 10) setHidden(false)
-        }
-        lastScrollY.current = y
-        ticking.current = false
-      })
+    function update() {
+      const h = document.querySelector('.header')
+      if (h) document.documentElement.style.setProperty('--header-h', h.offsetHeight + 'px')
     }
-    window.addEventListener('scroll', onScroll, { passive: true })
-    return () => window.removeEventListener('scroll', onScroll)
+    update()
+    const ro = new ResizeObserver(update)
+    const h = document.querySelector('.header')
+    if (h) ro.observe(h)
+    return () => ro.disconnect()
   }, [])
 
   const available = new Set(wordsData.map(w => w.word?.[0]?.toUpperCase()).filter(Boolean))
@@ -43,7 +30,7 @@ export default function Toolbar({
 
   return (
     <>
-      <div className={`toolbar${hidden ? ' toolbar--hidden' : ''}`}>
+      <div className="toolbar">
         <div className="toolbar-inner">
 
           {/* Search — direct child of toolbar-inner */}
@@ -151,7 +138,7 @@ export default function Toolbar({
 
       {/* Letter filter bar */}
       {wordsData.length > 0 && (
-        <div className={`letter-bar${hidden ? ' toolbar--hidden' : ''}`} id="letter-bar">
+        <div className="letter-bar" id="letter-bar">
           <div className="letter-bar-inner" id="letter-bar-inner">
             <button
               className={`letter-btn ${allActive ? 'active' : ''}`}

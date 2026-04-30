@@ -1,18 +1,6 @@
-import { useEffect, useRef } from 'react'
-
 export default function Header({ username, onUsernameClick, learned, total, pct, darkMode, onToggleDark, onReset, onOpenAchievements, onOpenCalendar }) {
-  const headerRef = useRef(null)
-
-  useEffect(() => {
-    function onScroll() {
-      headerRef.current?.classList.toggle('scrolled', window.scrollY > 8)
-    }
-    window.addEventListener('scroll', onScroll, { passive: true })
-    return () => window.removeEventListener('scroll', onScroll)
-  }, [])
-
   return (
-    <header className="header" ref={headerRef}>
+    <header className="header">
       <div className="header-inner">
 
         <div className="progress-wrap">
