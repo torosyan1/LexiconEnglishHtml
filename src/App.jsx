@@ -277,6 +277,7 @@ export default function App() {
   function handleSortChange(val) {
     setSortMode(val)
     if (val === 'shuffle') setShuffledList(shuffle(wordsData))
+    if (val === 'az') setActiveLetters(new Set(['A']))
     setCurrentPage(1)
   }
 
